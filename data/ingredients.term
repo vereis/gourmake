@@ -1,0 +1,7394 @@
+[
+    {
+        ackee,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        acorn_squash,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        advocaat,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        agar_agar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        ale,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        aleppo_pepper,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        alfalfa_sprouts,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        allspice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        almond,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        almond_essence,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        almond_extract,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        almond_milk,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        amaranth,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        amaretti,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        anchovies,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        anchovy_essence,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        angelica,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        angostura_bitters,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        anise,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        apple,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        apple_chutney,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        apple_juice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        apricot,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        arborio_rice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        arbroath_smokie,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        argan_oil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        arrowroot,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        artichoke,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        asafoetida,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        asparagus,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        aubergine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        avocado,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        azuki_beans,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        bacon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        bagel,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        baguette,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        baked_beans,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        baking_powder,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        baking_soda,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        balsamic_vinegar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        bamboo_shoots,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        banana,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        barbary_duck,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        barbecue_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        barley,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        basil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        basmati_rice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        bay_leaf,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beansprouts,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        bechamel_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beef,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beef_brisket,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beef_chuck,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beef_dripping,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beef_fillet,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beef_flank,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beef_mince,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beef_ribs,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beef_rump,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beef_shin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beef_stock,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beef_topside,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beer,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        beetroot,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        birds_eye_chilli,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        biscotti,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        black_beans,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        blackbean_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        blackberry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        blackcurrant,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        black_pepper,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        black_pudding,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        blueberry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        boar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        bok_choi,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        bonito,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        borlotti_beans,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        bran,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        brandy,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        brandy_butter,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        bream,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        brie,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        broad_beans,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        brown_bread,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        brown_lentil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        brown_rice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        brown_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        brown_sugar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        brussel_sprouts,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        buckwheat,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        buckwheat_flour,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        bulgar_wheat,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        butter,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        butter_bean,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        buttercream,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        buttermilk,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        butternut_squash,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cabbage,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        caerphilly,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        calasparra_rice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        calvados,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        camembert,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cannellini_beans,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        capers,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        capsicum,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        caramel,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        caraway_seeds,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cardamom,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        carob,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        carrot,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cashew,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cassava,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        caster_sugar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        catfish,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        caul_fat,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cauliflower,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cava,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        caviar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cavolo_nero,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cayenne_pepper,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        celeriac,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        celery,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        celery_seed,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        champagne,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chanterelle_mushrooms,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chantilly_cream,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chapatti,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chapatti_flour,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        charcuterie,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chard,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        charlotte_potato,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chayote,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cheddar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cheese_curd,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cherry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cherry_tomato,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chervil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chesire_cheese,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chestnut,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chestnut_mushroom,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chicken,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chicken_breast,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chicken_egg,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chicken_leg,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chicken_liver,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chicken_mine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chicken_thigh,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chicken_wing,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chickpea,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chickpea_flour,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chicory,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chilli_oil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chilli_paste,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chilli_powder,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chilli_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chinese_cabbage,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chinese_pancake,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chipotle_chilli,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        chive,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        ciabatta,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cider,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cinnamon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        clams,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        clarified_butter,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        clementine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        clotted_cream,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coconut_cream,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coconut_flour,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coconut_milk,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coconut_oil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cod,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cod_roe,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coffee,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coffee_beans,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coffee_essence,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coffee_granules,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cognac,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cola,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coleslaw,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coley,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        collar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        compote,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        comte,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        condensed_milk,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coriander,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coriander_cress,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        coriander_seed,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        corn,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cornbread,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        corned_beef,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cornflour,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        corn_syrup,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cos_lettuce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cottage_cheese,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        courgette,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        couscous,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cow_milk,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        crab,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        crab_apple,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        crackers,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cranberry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cream,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cream_cheese,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        creamed_coconut,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cream_soda,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        creme_fraiche,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        crispbread,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        crispy_noodles,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        curry_leaf,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        custard,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        cuttlefish,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        daikon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        damerara_sugar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        dandelion,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        danish_blue,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        danish_blue_cheese,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        dark_chocolate,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        date,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        demi_glace_sugar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        desiccated_coconut,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        desiree,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        dhal,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        dijon_mustard,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        dill,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        dolcelatte,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        double_cream,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        double_glocester,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        dover_sole,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        dragon_fruit,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        dried_cherry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        dried_chilli,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        duck,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        duck_fat,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        duck_liver,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        dulce_de_leche,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        edam,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        eel,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        egg,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        egg_noodles,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        egg_white,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        egg_yolk,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        elderberry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        elderflower,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        emmental,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        english_muffin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        english_mustard,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        escalope,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        evaporated_milk,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        farfalle,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fennel,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fennel_seed,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fenugreek,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        feta,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fettuccine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        field_mushroom,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fig,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        figeon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fines_herbes,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fish_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        five_spice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        flageolet_beans,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        flatbread,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        flatfish,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fleur_de_sel,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        floury_potato,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        focaccia,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        foie_gras,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fondant_icing,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fondant_potato,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fontina,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        frangipane,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        frankfurter,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        freekeh,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        french_beans,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        french_dressing,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fromage_frais,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fudge,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        fusilli,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        gake,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        galangal,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        gammon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        garam_masala,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        garlic,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        geletine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        ghee,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        gherkin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        giblet,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        gin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        ginger,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        ginger_ale,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        ginger_beer,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        glace_cherry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        glass_noodles,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        gnocchi,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        goat_cheese,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        goat_milk,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        goats_cheese,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        golden_syrup,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        goose,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        gooseberry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        goose_egg,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        goose_fat,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        gorgonzola,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        gouda,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        gram_flour,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        grapefruit,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        grapes,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        gravy,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        green_breans,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        green_lentil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        gruyere,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        guacamole,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        guava,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        guinea_fowl,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        guinea_pig,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        gurnard,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        habanero_chilli,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        haddock,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        halibut,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        halloumi,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        ham,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        hare,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        harissa,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        hazelnut,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        hoisin_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        hollandaise_saice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        honey,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        honeycomb,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        horseradish,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        hummus,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        iceberg_lettuce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        ice_cream,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        icing_sugar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        irish_stout,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        jaggery,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        jalapeno_chilli,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        japanese_pumpkin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        jasmine_rice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        jelly,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        jerk_seasoning,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        jersey_royal_potato,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        jerusalem_artichoke,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        john_dory,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        jujube,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        juniper_berry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        kale,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        kecap_manis,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        ketchup,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        kidney_bean,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        king_edward_potato,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        kiwi_fruit,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        kohlrabi,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        kumquat,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lager,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lamb,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lamb_breast,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lamb_chop,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lamb_fillet,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lamb_kidney,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lamb_loin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lamb_mine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lamb_neck,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lamb_rump,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lamb_shank,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lamb_shouler,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        langoustine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lard,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lardon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        leek,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        leg_of_lamb,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lemon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lemon_curd,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lemongrass,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lemon_juice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lemon_sole,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lentil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lettuce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lime,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lime_juice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lime_leaf,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lingonberry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        linguine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        liquorice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        little_gem_lettuce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lobster,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        loganberry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        long_grain_rice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lovage,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        lychee,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        macadamia_nut,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        macaroni,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        macaroon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mace,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mackerel,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        maize,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        manchego,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        manderin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mangetout,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mango,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mango_juice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mangosteen,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        maple_syrup,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        margarine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        marjoram,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        marrow,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        marrowfat_pea,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        marshmallow,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mascarpone,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        matzo,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mayonnaise,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        melon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        milk,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        milk_chocolate,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mint,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mint_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mirin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        miso,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        molasses,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        monk_fish,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        monks_beard,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mozzarella,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        muesli,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mulberry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mung_bean,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mussels,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        mustard_cress,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        naan_bread,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        nashi_apple,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        nectarin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        nettle,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        new_potato,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        nori,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        nougat,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        nutmeg,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        oatmeal,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        oats,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        octopus,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        oil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        okra,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        olive,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        olive_oil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        onion,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        orange,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        oregano,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        oxtail,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        oyster,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        oyster_mushroom,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        oyster_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        palm_sugar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pancetta,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pandan_leaf,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        paneer,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        papaya,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pappardelle,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        paprika,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        parmesan,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        parsley,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        parsnip,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        partridge,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        passata,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        passion_fruit,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pastrami,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pate,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        peach,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        peanut,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        peanut_butter,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        peanut_oil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pear,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pearl_barley,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pea_shoot,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pecan,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pecorino,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        penne,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pepper,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        peppercorn,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pepperoni,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pesto,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pheasant,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pickled_onion,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pig_cheeks,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pigeon_peas,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pineapple,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pine_nut,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pink_peppercorn,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pinto_bean,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pistachio,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pitta_bread,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        plaice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        plain_flour,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        plantain,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        plum,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        polenta,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pollock,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pomegrante,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pomelo,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        popcorn,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        poppy_seed,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        porcini_mushroom,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pork,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pork_belly,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pork_chop,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pork_fillet,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pork_leg,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pork_loin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pork_mince,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pork_rib,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pork_sausage,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pork_shoulder,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        port,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        portobello_mushroom,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        poussin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        praline,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        prawn,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pretzels,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        prosciutto,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        prune,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pudding_rice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pumpernickel_bread,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pumpkin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        pumpkin_seed,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        purple_sprouting_broccoli,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        puy_lentils,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        quail_egg,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        quinoa,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rabbit,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        radicchio,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        radish,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rainbow_chard,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rainbow_trout,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        raisin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        raita,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        ramen_noodles,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rapeseed_oil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        raspberry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        red_cabbage,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        redcurrant,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        red_leicester,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        red_lentil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        red_onion,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        red_rice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rhubard,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rice_flour,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rice_noodles,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rice_vinegar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rice_wine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        ricotta,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rigatoni,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        risotto_rice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rocket,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        roquefort,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rosemary,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rosewater,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rum,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        runner_beans,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        rye_bread,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        saffron,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sage,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        salad_leaf,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        salami,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        salmon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        salsify,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        samphire,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sardine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        satsuma,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        savory,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        savoy_cabbage,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        scallop,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        scotch_bonnet_chilli,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sea_bass,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sea_bream,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sea_trout,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        seaweed,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        self_raising_flour,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        semolina,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        serrano_ham,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sesame_oil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        seville_orange,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        shallot,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sherry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sherry_vinegar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        shiitake_mushroom,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sichuan_pepper,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        silverside_of_beef,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        single_cream,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        smoked_cheese,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        soba_noodles,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        soda_bread,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sourdough_bread,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        soya_beans,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        soya_flour,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        soya_milk,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        soy_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        spaghetti,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        spelt,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        spelt_flour,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        spinach,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        split_peas,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        spring_onion,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        squid,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        star_anise,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        steak,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        stem_ginger,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        stilton,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        strawberry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        suet,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sumac,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sweetcorn,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        sweet_potato,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tabasco,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tagliatelle,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tahini,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tamari,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tamarind,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tangerine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tapioca,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        taro,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tarragon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tartare_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tayberry,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tequila,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        teriyaki_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        terrine,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        thyme,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tofu,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tomato,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tomato_puree,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tonic,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tortellini,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        tortilla,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        truffle,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        truffle_oil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        turmeric,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        turnip,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        udon_noodles,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        vacherin,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        vanilla,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        vanilla_extract,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        vanilla_pod,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        vegetable_oil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        vegetable_shortening,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        vegetable_stock,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        venison,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        vermicelli,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        vinegar,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        vine_leaf,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        walnut,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        walnut_oil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        wasabi,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        water_chestnut,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        watercress,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        watermelon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        waxy_potato,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        wensleydale,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        whelk,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        whipped_cream,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        whisky,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        white_bread,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        white_cabbage,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        white_chocolate,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        whitecurrant,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        white_pepper,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        wholegrain_mustard,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        wild_garlic,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        wild_mushroom,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        wild_rice,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        wood_pigeon,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        worcestershire_sauce,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        yam,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        yeast,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        yellow_lentil,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        yoghurt,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    },
+    {
+        yuzu,
+        #{
+            categories=>[
+
+            ],
+            cuisines=>[
+
+            ]
+        }
+    }
+]
