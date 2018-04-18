@@ -52,3 +52,7 @@ For our mutation operator, we will do any of the following, in order of likeliho
 - Replace an ingredient entirely with a random one
 
 We also perform elitism whereby even if not selected, the top candidate recipe will be guarenteed to exist in the next generation.
+
+```gourmake```'s fitness function is as of yet not 100% solidly defined, however, we can check the ingredient distribution (including preperation methods etc) similarity with a sample of recipes (or the markov chain we generated) in order to determine how similar to a real recipe our generated recipe is. 
+
+Furthermore, we can also place goals onto our generated recipes such as needed to fit into a particular cuisine (so we want to maximise certain preperations styles, flavours and ingredients) as well as maximising a particular flavour such as umami.
