@@ -1,0 +1,74 @@
+Cognitive Cooking: Applying Computational Creativity to Recipe Generation
+    
+    - System that generates surprising yet flavourful recipes
+    - Can reason about flavour the same way we use our palate
+    - Database of recipes, ingredients, flavor compounds, food pairing theories, 
+      psychological data of human taste perception
+    - Comb through recipe db learning about ingredient pairing, cuisine pairing,
+      dish composition.
+    - Cross reference data on chemistry of ingredients, psychology of people likes
+      and dislikes (hedonic perception theory).
+    - Hard to scale
+
+
+Cognition as a part of Computational Creativity
+
+    - Recipe generation is mix of Creativity and Cognition
+    - Design componant informed by cognition, but not cognitive
+    - Human flavour perception:
+        - Emotional/Memory Related
+        - Basic tasts: sweet, sour, salty, bitter, umami
+        - Smell is key contributor to flavour perception; 10s - 100s of flavour compounds
+          per ingredient
+        - Temperature
+        - Texture
+        - Astringency
+        - Creaminess
+        - Color/Shape/Sound
+    - Dish is the basic unit of creation
+    - Dishes are combinations of recipe design and culinary skill (how to cook food)
+    - Requires a suitable domain knowledge database
+    - Repository of food ingredients and existing recipes, culinary styles, cuisines,
+      flavour compounds
+    - Genetic algorithms well suited?
+    - Flavour pairing hypothesis
+    - Olfactory pleasantness maximization
+    - Data Model:
+        - Recipe = {Ingredients List, Tool List, Cooking Steps}
+        - Must include cultural context, human ratings, chemical analysis of ingredients,
+          processes and so on
+        - Name of dish
+        - Regional Cuisine
+    - Assessment:
+        - Novelty, different in probability distribution of ingredient combinations
+        - Bayesian Surprise
+        - Pleasantness, can rely on topological polar surface area, heavy atom count,
+          rotatable bond count, hydrogen bond acceptor count.
+
+
+Soup Over Bean of Pure Joy: Culinary Ruminations of an Artificial Chef
+
+    - Inspiring set contains ~5000 soups, stew and chilli recipes, with normalised
+      ingredient measurements
+    - Groups and sub groups:
+        - Fruits and vegs > Beans, Fruits, Leafy Greens.
+        - Beans > Butter Beans, Kidney Beans etc
+    - Uses a genetic algorithm:
+        - Mutation modeled as change of one ingredient to another, addition of an
+          ingredient or deletion of an ingredient
+        - Crossover is simple one point crossover
+        - Fitness Function:
+            - Relationship of major groups compared to correct usual amounts
+            - Other NN learning
+    - Because of atypicalities such as "a dash of green beans", recipes are discarded
+      from places such as 'food.com'
+
+
+New Developments in Culinary Computational Creativity
+
+    - Personalization of dish evaluation? "I like meat"
+    - Optimization of dish quality and novelty
+    - Consider flavor preference and novelty evaluation followed by apation/search
+    - Consider subbing foods, meat -> plant based alternative
+    - Odor Similarity as a model for flavour enhancement, balance and substitution
+    - Perceptual similarity of odorant-mixtures can be pridicted

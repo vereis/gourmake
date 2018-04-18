@@ -1,0 +1,10 @@
+This is a good idea for a project. I was clear whether you are going to build the knowledge base about categories "by hand", or extract it e.g. via text mining from an existing database of recipes. If the latter, you might want to look at recipes that are already in a computer readable format (http://microformats.org/wiki/recipe-formats).
+
+
+You should look at the following systems and papers: http://computationalcreativity.net/iccc2012/wp-content/uploads/2012/05/119-Morris.pdf  https://www.ibm.com/blogs/research/2014/03/cognitive-cooking-applying-computational-creativity-to-recipe-generation/  https://pdfs.semanticscholar.org/81bb/32cef9a0cac6b380c6d5fb76dec5c2620fd3.pdf https://pdfs.semanticscholar.org/025d/abf3125e4b45271d76a6ad872fb9890ed2e2.pdf
+
+
+The ideas that you have for implementing it seem sensible. As you say, giving the system some way of measuring "taste" from a textual description is going to be the most challenging - you don't want to just re-generate existing recipes, but equally you don't want to create random recipes.
+
+
+Evaluation is interesting intros domain - certainly there is an interesting piece of work in actually trying to cook them, but you should also think about how you might apply some of the evaluation frameworks from the lectures on evaluation to structure your thinking about whether (and in what way) the system is creative.
