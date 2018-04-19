@@ -1211,21 +1211,26 @@
         cabbage,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
     {
-        caerphilly,
+        caerphilly_cheese,
         #{
             categories=>[
-
+                dairy,
+                hard_cheese,
+                cheese
             ],
             cuisines=>[
-
+                welsh,
+                british,
+                european
             ]
         }
     },
@@ -1233,10 +1238,13 @@
         calasparra_rice,
         #{
             categories=>[
-
+                rice,
+                grain,
+                starch
             ],
             cuisines=>[
-
+                arabic,
+                spanish
             ]
         }
     },
@@ -1244,10 +1252,12 @@
         calvados,
         #{
             categories=>[
-
+                liquor,
+                alcohol,
+                drink
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -1255,10 +1265,13 @@
         camembert,
         #{
             categories=>[
-
+                dairy,
+                cream,
+                soft_cheese,
+                cheese
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -1266,10 +1279,13 @@
         cannellini_beans,
         #{
             categories=>[
-
+                starch,
+                bean
             ],
             cuisines=>[
-
+                north_american,
+                italian,
+                south_american
             ]
         }
     },
@@ -1277,10 +1293,17 @@
         capers,
         #{
             categories=>[
-
+                vegetable,
+                preserve,
+                pickle,
+                topping,
+                herb,
+                spice
             ],
             cuisines=>[
-
+                european,
+                italian,
+                spanish
             ]
         }
     },
@@ -1288,10 +1311,12 @@
         capsicum,
         #{
             categories=>[
-
+                chilli,
+                fruit,
+                vegetable
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1299,10 +1324,12 @@
         caramel,
         #{
             categories=>[
-
+                sweet,
+                sauce,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1310,10 +1337,13 @@
         caraway_seeds,
         #{
             categories=>[
-
+                topping,
+                spice
             ],
             cuisines=>[
-
+                european,
+                british,
+                middle_eastern
             ]
         }
     },
@@ -1321,10 +1351,14 @@
         cardamom,
         #{
             categories=>[
-
+                spice,
+                aromatic
             ],
             cuisines=>[
-
+                indian,
+                korean,
+                scandinavian,
+                asian
             ]
         }
     },
@@ -1332,10 +1366,18 @@
         carob,
         #{
             categories=>[
-
+                bean,
+                dessert,
+                topping,
+                chocolate,
+                sauce,
+                thickener
             ],
             cuisines=>[
-
+                arabic,
+                european,
+                middle_eastern,
+                north_african
             ]
         }
     },
@@ -1343,10 +1385,14 @@
         carrot,
         #{
             categories=>[
-
+                root_veg,
+                root,
+                starch,
+                topping,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1365,10 +1411,14 @@
         cassava,
         #{
             categories=>[
-
+                starch,
+                flour,
+                thickener
             ],
             cuisines=>[
-
+                north_african,
+                middle_eastern,
+                asian
             ]
         }
     },
@@ -1376,10 +1426,12 @@
         caster_sugar,
         #{
             categories=>[
-
+                sweet,
+                topping,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1387,10 +1439,11 @@
         catfish,
         #{
             categories=>[
-
+                fish,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1398,10 +1451,10 @@
         caul_fat,
         #{
             categories=>[
-
+                fat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1409,10 +1462,14 @@
         cauliflower,
         #{
             categories=>[
-
+                vegetable,
+                root,
+                root_veg,
+                flower,
+                starch
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1420,10 +1477,14 @@
         cava,
         #{
             categories=>[
-
+                liquor,
+                alcohol,
+                drink
             ],
             cuisines=>[
-
+                greek,
+                spanish,
+                european
             ]
         }
     },
@@ -1431,10 +1492,10 @@
         caviar,
         #{
             categories=>[
-
+                fish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1442,10 +1503,11 @@
         cavolo_nero,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -1453,10 +1515,14 @@
         cayenne_pepper,
         #{
             categories=>[
-
+                topping,
+                chilli,
+                fruit,
+                spice,
+                vegetable
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1464,10 +1530,13 @@
         celeriac,
         #{
             categories=>[
-
+                starch,
+                vegetable,
+                root_veg
             ],
             cuisines=>[
-
+                european,
+                british
             ]
         }
     },
@@ -1475,10 +1544,11 @@
         celery,
         #{
             categories=>[
-
+                vegetable,
+                leafy_green
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1486,10 +1556,11 @@
         celery_seed,
         #{
             categories=>[
-
+                topping,
+                spice
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1497,10 +1568,11 @@
         champagne,
         #{
             categories=>[
-
+                alcohol,
+                drink
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -1508,10 +1580,14 @@
         chanterelle_mushrooms,
         #{
             categories=>[
-
+                mushroom,
+                topping,
+                starch
             ],
             cuisines=>[
-
+                european,
+                french,
+                italian
             ]
         }
     },
@@ -1519,21 +1595,15 @@
         chantilly_cream,
         #{
             categories=>[
-
+                cream,
+                dairy,
+                dessert,
+                sweet,
+                thickener,
+                topping
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        chapatti,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -1541,21 +1611,12 @@
         chapatti_flour,
         #{
             categories=>[
-
+                flour,
+                starch,
+                thickener
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        charcuterie,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                indian
             ]
         }
     },
@@ -1563,10 +1624,13 @@
         chard,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable,
+                herb
             ],
             cuisines=>[
-
+                french,
+                european
             ]
         }
     },
@@ -1574,10 +1638,13 @@
         charlotte_potato,
         #{
             categories=>[
-
+                starch,
+                root_veg,
+                vegetable
             ],
             cuisines=>[
-
+                british,
+                european
             ]
         }
     },
@@ -1585,10 +1652,14 @@
         chayote,
         #{
             categories=>[
-
+                fruit,
+                citrus,
+                vegetable,
+                root_veg,
+                starch
             ],
             cuisines=>[
-
+                south_american
             ]
         }
     },
@@ -1596,10 +1667,14 @@
         cheddar,
         #{
             categories=>[
-
+                dairy,
+                topping,
+                cheese,
+                hard_cheese
             ],
             cuisines=>[
-
+                british,
+                north_american
             ]
         }
     },
@@ -1607,10 +1682,15 @@
         cheese_curd,
         #{
             categories=>[
-
+                cheese,
+                dairy,
+                topping,
+                soft_cheese
             ],
             cuisines=>[
-
+                north_american,
+                european,
+                indian
             ]
         }
     },
@@ -1618,10 +1698,12 @@
         cherry,
         #{
             categories=>[
-
+                fruit,
+                topping,
+                berry
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1629,10 +1711,13 @@
         cherry_tomato,
         #{
             categories=>[
-
+                fruit,
+                topping,
+                berry,
+                vegetable
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1640,10 +1725,12 @@
         chervil,
         #{
             categories=>[
-
+                leafy_green,
+                herb,
+                vegetable
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -1651,10 +1738,14 @@
         chesire_cheese,
         #{
             categories=>[
-
+                dairy,
+                cheese,
+                hard_cheese,
+                topping
             ],
             cuisines=>[
-
+                british,
+                european
             ]
         }
     },
@@ -1662,10 +1753,14 @@
         chestnut,
         #{
             categories=>[
-
+                nut,
+                starch,
+                grain,
+                root_veg,
+                carb
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -1673,10 +1768,13 @@
         chestnut_mushroom,
         #{
             categories=>[
-
+                mushroom,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                european,
+                british
             ]
         }
     },
@@ -1684,10 +1782,12 @@
         chicken,
         #{
             categories=>[
-
+                meat,
+                poultry,
+                white_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1695,10 +1795,12 @@
         chicken_breast,
         #{
             categories=>[
-
+                meat,
+                poultry,
+                white_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1706,10 +1808,13 @@
         chicken_egg,
         #{
             categories=>[
-
+                dairy,
+                binder,
+                thickener,
+                egg
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1717,10 +1822,12 @@
         chicken_leg,
         #{
             categories=>[
-
+                white_meat,
+                poultry,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1728,10 +1835,12 @@
         chicken_liver,
         #{
             categories=>[
-
+                white_meat,
+                poultry,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1739,10 +1848,12 @@
         chicken_mine,
         #{
             categories=>[
-
+                white_meat,
+                poultry,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1750,10 +1861,12 @@
         chicken_thigh,
         #{
             categories=>[
-
+                white_meat,
+                poultry,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1761,10 +1874,12 @@
         chicken_wing,
         #{
             categories=>[
-
+                white_meat,
+                poultry,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1772,10 +1887,15 @@
         chickpea,
         #{
             categories=>[
-
+                starch,
+                grain,
+                rice,
+                carb,
+                bean
             ],
             cuisines=>[
-
+                middle_eastern,
+                north_african
             ]
         }
     },
@@ -1783,10 +1903,13 @@
         chickpea_flour,
         #{
             categories=>[
-
+                flour,
+                starch,
+                thickener
             ],
             cuisines=>[
-
+                middle_eastern,
+                north_african
             ]
         }
     },
@@ -1794,10 +1917,13 @@
         chicory,
         #{
             categories=>[
-
+                herb,
+                flower,
+                leafy_green
             ],
             cuisines=>[
-
+                european,
+                north_american
             ]
         }
     },
@@ -1805,10 +1931,14 @@
         chilli_oil,
         #{
             categories=>[
-
+                fat,
+                oil,
+                dip,
+                spice
             ],
             cuisines=>[
-
+                chinese,
+                indian
             ]
         }
     },
@@ -1816,10 +1946,13 @@
         chilli_paste,
         #{
             categories=>[
-
+                fat,
+                oil,
+                dip,
+                spice
             ],
             cuisines=>[
-
+                chinese
             ]
         }
     },
@@ -1827,10 +1960,15 @@
         chilli_powder,
         #{
             categories=>[
-
+                topping,
+                spice,
+                aromatic
             ],
             cuisines=>[
-
+                indian,
+                chinese,
+                asian,
+                malaysian
             ]
         }
     },
@@ -1838,10 +1976,12 @@
         chilli_sauce,
         #{
             categories=>[
-
+                topping,
+                spice,
+                sauce
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1849,21 +1989,11 @@
         chinese_cabbage,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        chinese_pancake,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                chinese
             ]
         }
     },
@@ -1871,10 +2001,14 @@
         chipotle_chilli,
         #{
             categories=>[
-
+                spice,
+                chilli,
+                topping,
+                aromatic
             ],
             cuisines=>[
-
+                south_american,
+                north_american
             ]
         }
     },
@@ -1882,10 +2016,13 @@
         chive,
         #{
             categories=>[
-
+                herb,
+                aromatic,
+                leafy_green,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1893,10 +2030,12 @@
         ciabatta,
         #{
             categories=>[
-
+                starch,
+                bread,
+                carb
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -1904,10 +2043,12 @@
         cider,
         #{
             categories=>[
-
+                alcohol,
+                drink,
+                liquor
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1915,10 +2056,13 @@
         cinnamon,
         #{
             categories=>[
-
+                spice,
+                sweet,
+                dessert,
+                aromatic
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1926,10 +2070,12 @@
         clams,
         #{
             categories=>[
-
+                white_meat,
+                fish,
+                shellfish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1937,10 +2083,13 @@
         clarified_butter,
         #{
             categories=>[
-
+                fat,
+                binder,
+                thickener,
+                drink
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1948,10 +2097,13 @@
         clementine,
         #{
             categories=>[
-
+                citrus,
+                fruit,
+                juice,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1959,10 +2111,13 @@
         clotted_cream,
         #{
             categories=>[
-
+                topping,
+                fat,
+                cream,
+                diary
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -1970,10 +2125,13 @@
         coconut_cream,
         #{
             categories=>[
-
+                topping,
+                fat,
+                cream,
+                dairy
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -1981,10 +2139,12 @@
         coconut_flour,
         #{
             categories=>[
-
+                topping,
+                starch,
+                flour
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -1992,10 +2152,14 @@
         coconut_milk,
         #{
             categories=>[
-
+                topping,
+                fat,
+                cream,
+                dairy,
+                drink
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2003,10 +2167,10 @@
         coconut_oil,
         #{
             categories=>[
-
+                fat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2014,10 +2178,12 @@
         cod,
         #{
             categories=>[
-
+                white_meat,
+                fish,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2025,10 +2191,10 @@
         cod_roe,
         #{
             categories=>[
-
+                fish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2036,10 +2202,13 @@
         coffee,
         #{
             categories=>[
-
+                spice,
+                dessert,
+                sweet,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2047,10 +2216,13 @@
         coffee_beans,
         #{
             categories=>[
-
+                spice,
+                dessert,
+                sweet,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2058,10 +2230,13 @@
         coffee_essence,
         #{
             categories=>[
-
+                spice,
+                dessert,
+                sweet,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2069,10 +2244,13 @@
         coffee_granules,
         #{
             categories=>[
-
+                spice,
+                sweet,
+                dessert,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2080,10 +2258,12 @@
         cognac,
         #{
             categories=>[
-
+                alcohol,
+                drink,
+                liquor
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2091,21 +2271,12 @@
         cola,
         #{
             categories=>[
-
+                sweet,
+                drink,
+                dessert
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        coleslaw,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                north_american
             ]
         }
     },
@@ -2113,32 +2284,12 @@
         coley,
         #{
             categories=>[
-
+                fish,
+                white_meat,
+                meat
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        collar,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
-            ]
-        }
-    },
-    {
-        compote,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -2146,10 +2297,13 @@
         comte,
         #{
             categories=>[
-
+                dairy,
+                cheese,
+                topping,
+                hard_cheese
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -2157,10 +2311,15 @@
         condensed_milk,
         #{
             categories=>[
-
+                dairy,
+                dessert,
+                sweet,
+                thickener,
+                cream,
+                drink
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2168,10 +2327,13 @@
         coriander,
         #{
             categories=>[
-
+                herb,
+                leafy_green,
+                vegetable
             ],
             cuisines=>[
-
+                all,
+                vietnamese
             ]
         }
     },
@@ -2179,10 +2341,12 @@
         coriander_cress,
         #{
             categories=>[
-
+                herb,
+                leafy_green,
+                vegetable
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2190,10 +2354,11 @@
         coriander_seed,
         #{
             categories=>[
-
+                spice,
+                aromatic
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2201,21 +2366,15 @@
         corn,
         #{
             categories=>[
-
+                starch,
+                sweet,
+                topping,
+                grain,
+                carb
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        cornbread,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                north_american,
+                south_amercican
             ]
         }
     },
@@ -2223,10 +2382,12 @@
         corned_beef,
         #{
             categories=>[
-
+                meat,
+                preserved,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2234,10 +2395,13 @@
         cornflour,
         #{
             categories=>[
-
+                starch,
+                thickener,
+                flour
             ],
             cuisines=>[
-
+                north_american,
+                south_american
             ]
         }
     },
@@ -2245,10 +2409,12 @@
         corn_syrup,
         #{
             categories=>[
-
+                sweet,
+                thickener,
+                dessert
             ],
             cuisines=>[
-
+                north_american
             ]
         }
     },
@@ -2256,10 +2422,11 @@
         cos_lettuce,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2267,10 +2434,14 @@
         cottage_cheese,
         #{
             categories=>[
-
+                topping,
+                dairy,
+                cheese,
+                soft_cheese,
+                fat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2278,10 +2449,17 @@
         courgette,
         #{
             categories=>[
-
+                vegetable,
+                gourd,
+                pumpkin,
+                winter_squash,
+                squash,
+                fruit
             ],
             cuisines=>[
-
+                italian,
+                european,
+                british
             ]
         }
     },
@@ -2289,10 +2467,13 @@
         couscous,
         #{
             categories=>[
-
+                grain,
+                carb,
+                starch
             ],
             cuisines=>[
-
+                middle_eastern,
+                north_african
             ]
         }
     },
@@ -2300,10 +2481,12 @@
         cow_milk,
         #{
             categories=>[
-
+                dairy,
+                sweet,
+                drink
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2311,10 +2494,13 @@
         crab,
         #{
             categories=>[
-
+                white_meat,
+                fish,
+                meat,
+                shellfish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2322,10 +2508,12 @@
         crab_apple,
         #{
             categories=>[
-
+                fruit,
+                sweet,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2333,10 +2521,15 @@
         crackers,
         #{
             categories=>[
-
+                starch,
+                carb,
+                sweet,
+                dessert,
+                grain,
+                bread
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2344,10 +2537,13 @@
         cranberry,
         #{
             categories=>[
-
+                berry,
+                fruit,
+                topping,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2355,10 +2551,12 @@
         cream,
         #{
             categories=>[
-
+                dairy,
+                cream,
+                thickener
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2366,10 +2564,15 @@
         cream_cheese,
         #{
             categories=>[
-
+                dairy,
+                cheese,
+                soft_cheese,
+                topping,
+                cream,
+                thickener
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2377,21 +2580,13 @@
         creamed_coconut,
         #{
             categories=>[
-
+                dairy,
+                topping,
+                cream,
+                thickener
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        cream_soda,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -2399,10 +2594,14 @@
         creme_fraiche,
         #{
             categories=>[
-
+                dairy,
+                topping,
+                preserve,
+                pickle,
+                thickener
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2410,10 +2609,14 @@
         crispbread,
         #{
             categories=>[
-
+                starch,
+                bread,
+                grain,
+                topping
             ],
             cuisines=>[
-
+                scandinavian,
+                north_american
             ]
         }
     },
@@ -2421,10 +2624,16 @@
         crispy_noodles,
         #{
             categories=>[
-
+                starch,
+                grain,
+                carb,
+                topping,
+                noodle,
+                pasta
             ],
             cuisines=>[
-
+                chinese,
+                asian
             ]
         }
     },
@@ -2432,10 +2641,11 @@
         curry_leaf,
         #{
             categories=>[
-
+                herb,
+                aromatic
             ],
             cuisines=>[
-
+                indian
             ]
         }
     },
@@ -2443,10 +2653,13 @@
         custard,
         #{
             categories=>[
-
+                sweet,
+                sauce,
+                topping,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2454,10 +2667,12 @@
         cuttlefish,
         #{
             categories=>[
-
+                fish,
+                white_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2465,10 +2680,15 @@
         daikon,
         #{
             categories=>[
-
+                root_veg,
+                vegetable,
+                root,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                japanese,
+                asian
             ]
         }
     },
@@ -2476,10 +2696,12 @@
         damerara_sugar,
         #{
             categories=>[
-
+                sweet,
+                topping,
+                thickener
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2487,21 +2709,13 @@
         dandelion,
         #{
             categories=>[
-
+                flower,
+                herb,
+                leafy_green,
+                topping
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        danish_blue,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                british
             ]
         }
     },
@@ -2509,10 +2723,16 @@
         danish_blue_cheese,
         #{
             categories=>[
-
+                blue_cheese,
+                cheese,
+                dairy,
+                cream,
+                soft_cheese
             ],
             cuisines=>[
-
+                danish,
+                european,
+                north_american
             ]
         }
     },
@@ -2520,10 +2740,12 @@
         dark_chocolate,
         #{
             categories=>[
-
+                topping,
+                chocolate,
+                sweet
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2531,21 +2753,17 @@
         date,
         #{
             categories=>[
-
+                preserve,
+                pickle,
+                fruit,
+                berry,
+                sweet,
+                dessert,
+                topping
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        demi_glace_sugar,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                middle_eastern,
+                north_african
             ]
         }
     },
@@ -2553,10 +2771,14 @@
         desiccated_coconut,
         #{
             categories=>[
-
+                sweet,
+                topping,
+                sauce,
+                dessert,
+                fruit
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2564,10 +2786,14 @@
         desiree,
         #{
             categories=>[
-
+                starch,
+                root_veg,
+                root,
+                carb
             ],
             cuisines=>[
-
+                scandinavian,
+                european
             ]
         }
     },
@@ -2575,10 +2801,14 @@
         dhal,
         #{
             categories=>[
-
+                bean,
+                starch,
+                grain,
+                carb,
+                rice
             ],
             cuisines=>[
-
+                indian
             ]
         }
     },
@@ -2586,10 +2816,13 @@
         dijon_mustard,
         #{
             categories=>[
-
+                spice,
+                sauce,
+                topping
             ],
             cuisines=>[
-
+                german,
+                european
             ]
         }
     },
@@ -2597,10 +2830,13 @@
         dill,
         #{
             categories=>[
-
+                herb,
+                vegetable,
+                aromatic,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2608,10 +2844,13 @@
         dolcelatte,
         #{
             categories=>[
-
+                cheese,
+                blue_cheese,
+                soft_cheese,
+                dairy
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -2619,10 +2858,12 @@
         double_cream,
         #{
             categories=>[
-
+                cream,
+                diary,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2630,10 +2871,13 @@
         double_glocester,
         #{
             categories=>[
-
+                cheese,
+                diary,
+                hard_cheese,
+                topping
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -2641,10 +2885,13 @@
         dover_sole,
         #{
             categories=>[
-
+                fish,
+                white_fish,
+                white_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2652,10 +2899,14 @@
         dragon_fruit,
         #{
             categories=>[
-
+                fruit,
+                berry,
+                sweet,
+                dessert,
+                juice
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -2663,10 +2914,15 @@
         dried_cherry,
         #{
             categories=>[
-
+                herb,
+                spice,
+                fruit,
+                sweet,
+                dessert,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2674,10 +2930,12 @@
         dried_chilli,
         #{
             categories=>[
-
+                spice,
+                aromatic,
+                chilli
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2685,10 +2943,14 @@
         duck,
         #{
             categories=>[
-
+                white_meat,
+                game,
+                poultry,
+                meat
             ],
             cuisines=>[
-
+                french,
+                asian
             ]
         }
     },
@@ -2696,10 +2958,12 @@
         duck_fat,
         #{
             categories=>[
-
+                fat,
+                sauce,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2707,10 +2971,13 @@
         duck_liver,
         #{
             categories=>[
-
+                white_meat,
+                game,
+                poultry,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2718,10 +2985,16 @@
         dulce_de_leche,
         #{
             categories=>[
-
+                cream,
+                diary,
+                topping,
+                sweet,
+                dessert
             ],
             cuisines=>[
-
+                spanish,
+                south_american,
+                european
             ]
         }
     },
@@ -2729,10 +3002,13 @@
         edam,
         #{
             categories=>[
-
+                cheese,
+                diary,
+                hard_cheese
             ],
             cuisines=>[
-
+                european,
+                dutch
             ]
         }
     },
@@ -2740,10 +3016,13 @@
         eel,
         #{
             categories=>[
-
+                fish,
+                white_fish,
+                white_meat,
+                meat
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -2751,10 +3030,12 @@
         egg,
         #{
             categories=>[
-
+                diary,
+                binder,
+                creamer
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2762,10 +3043,14 @@
         egg_noodles,
         #{
             categories=>[
-
+                noodle,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                asian,
+                chinese,
+                japanese
             ]
         }
     },
@@ -2773,10 +3058,11 @@
         egg_white,
         #{
             categories=>[
-
+                fat,
+                diary
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2784,10 +3070,11 @@
         egg_yolk,
         #{
             categories=>[
-
+                dairy,
+                binder
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2795,10 +3082,12 @@
         elderberry,
         #{
             categories=>[
-
+                berry,
+                fruit,
+                topping
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -2806,10 +3095,13 @@
         elderflower,
         #{
             categories=>[
-
+                flower,
+                herb,
+                fruit,
+                topping
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -2817,10 +3109,12 @@
         emmental,
         #{
             categories=>[
-
+                cheese,
+                hard_cheese,
+                diary
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2828,10 +3122,12 @@
         english_muffin,
         #{
             categories=>[
-
+                starch,
+                bread,
+                carb
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -2839,21 +3135,13 @@
         english_mustard,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                spice,
+                aromatic
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        escalope,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                british
             ]
         }
     },
@@ -2861,10 +3149,14 @@
         evaporated_milk,
         #{
             categories=>[
-
+                sweet,
+                dairy,
+                drink,
+                thickener,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2872,10 +3164,12 @@
         farfalle,
         #{
             categories=>[
-
+                pasta,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -2883,10 +3177,14 @@
         fennel,
         #{
             categories=>[
-
+                herb,
+                root,
+                root_veg,
+                carb,
+                starch
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -2894,10 +3192,12 @@
         fennel_seed,
         #{
             categories=>[
-
+                spice,
+                herb,
+                aromatic
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -2905,10 +3205,14 @@
         fenugreek,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable,
+                spice,
+                aromatic
             ],
             cuisines=>[
-
+                indian,
+                middle_eastern
             ]
         }
     },
@@ -2916,10 +3220,13 @@
         feta,
         #{
             categories=>[
-
+                cheese,
+                soft_cheese,
+                diary
             ],
             cuisines=>[
-
+                greek,
+                european
             ]
         }
     },
@@ -2927,10 +3234,12 @@
         fettuccine,
         #{
             categories=>[
-
+                starch,
+                carb,
+                pasta
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -2938,10 +3247,11 @@
         field_mushroom,
         #{
             categories=>[
-
+                mushroom,
+                vegetable
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -2949,21 +3259,13 @@
         fig,
         #{
             categories=>[
-
+                fruit,
+                preserve,
+                pickle,
+                topping
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        figeon,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -2971,10 +3273,11 @@
         fines_herbes,
         #{
             categories=>[
-
+                herb,
+                aromatic
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -2982,10 +3285,15 @@
         fish_sauce,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                drink,
+                aromatic
             ],
             cuisines=>[
-
+                chinese,
+                asian,
+                vietnamese
             ]
         }
     },
@@ -2993,10 +3301,12 @@
         five_spice,
         #{
             categories=>[
-
+                spice,
+                topping,
+                aromatic
             ],
             cuisines=>[
-
+                chinese
             ]
         }
     },
@@ -3004,21 +3314,14 @@
         flageolet_beans,
         #{
             categories=>[
-
+                bean,
+                starch,
+                carb,
+                grain,
+                rice
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        flatbread,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                south_american
             ]
         }
     },
@@ -3026,10 +3329,13 @@
         flatfish,
         #{
             categories=>[
-
+                white_fish,
+                fish,
+                meat,
+                white_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3037,10 +3343,12 @@
         fleur_de_sel,
         #{
             categories=>[
-
+                spice,
+                herb,
+                topping
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -3048,10 +3356,14 @@
         floury_potato,
         #{
             categories=>[
-
+                starch,
+                root,
+                root_veg,
+                vegetable,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3059,10 +3371,12 @@
         focaccia,
         #{
             categories=>[
-
+                starch,
+                bread,
+                carb
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -3070,10 +3384,12 @@
         foie_gras,
         #{
             categories=>[
-
+                meat,
+                white_meat,
+                preserve
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -3081,10 +3397,12 @@
         fondant_icing,
         #{
             categories=>[
-
+                sweet,
+                topping,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3092,10 +3410,15 @@
         fondant_potato,
         #{
             categories=>[
-
+                starch,
+                grain,
+                topping,
+                carb,
+                root,
+                root_veg
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -3103,10 +3426,12 @@
         fontina,
         #{
             categories=>[
-
+                cheese,
+                diary,
+                soft_cheese
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -3114,10 +3439,15 @@
         frangipane,
         #{
             categories=>[
-
+                topping,
+                sauce,
+                dessert,
+                sweet,
+                cream
             ],
             cuisines=>[
-
+                french,
+                european
             ]
         }
     },
@@ -3125,10 +3455,15 @@
         frankfurter,
         #{
             categories=>[
-
+                pork,
+                red_meat,
+                meat,
+                preserve,
+                pickle
             ],
             cuisines=>[
-
+                german,
+                european
             ]
         }
     },
@@ -3136,10 +3471,14 @@
         freekeh,
         #{
             categories=>[
-
+                starch,
+                grain,
+                carb,
+                bean
             ],
             cuisines=>[
-
+                middle_eastern,
+                european
             ]
         }
     },
@@ -3147,10 +3486,11 @@
         french_beans,
         #{
             categories=>[
-
+                vegetable,
+                starch
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3158,10 +3498,13 @@
         french_dressing,
         #{
             categories=>[
-
+                sauce,
+                fat,
+                topping,
+                fat
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -3169,10 +3512,13 @@
         fromage_frais,
         #{
             categories=>[
-
+                cheese,
+                soft_cheese,
+                dairy,
+                cream
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3180,10 +3526,12 @@
         fudge,
         #{
             categories=>[
-
+                sweet,
+                topping,
+                dessert
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -3191,21 +3539,12 @@
         fusilli,
         #{
             categories=>[
-
+                pasta,
+                carb,
+                starch
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        gake,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                italian
             ]
         }
     },
@@ -3213,10 +3552,13 @@
         galangal,
         #{
             categories=>[
-
+                spice,
+                aromatic,
+                root_veg,
+                root
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -3224,10 +3566,13 @@
         gammon,
         #{
             categories=>[
-
+                pork,
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                irish,
+                european
             ]
         }
     },
@@ -3235,10 +3580,12 @@
         garam_masala,
         #{
             categories=>[
-
+                spice,
+                aromatic,
+                topping
             ],
             cuisines=>[
-
+                indian
             ]
         }
     },
@@ -3246,10 +3593,15 @@
         garlic,
         #{
             categories=>[
-
+                spice,
+                aromatic,
+                herb,
+                vegetable,
+                root,
+                root_veg
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3257,10 +3609,12 @@
         geletine,
         #{
             categories=>[
-
+                thickener,
+                jelly,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3268,10 +3622,12 @@
         ghee,
         #{
             categories=>[
-
+                fat,
+                topping,
+                sauce
             ],
             cuisines=>[
-
+                indian
             ]
         }
     },
@@ -3279,10 +3635,12 @@
         gherkin,
         #{
             categories=>[
-
+                vegetable,
+                pickle,
+                preserve
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3290,10 +3648,11 @@
         giblet,
         #{
             categories=>[
-
+                poultry,
+                white_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3301,10 +3660,12 @@
         gin,
         #{
             categories=>[
-
+                alcohol,
+                drink,
+                liquor
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3312,10 +3673,13 @@
         ginger,
         #{
             categories=>[
-
+                spice,
+                root,
+                root_veg,
+                aromatic
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3323,10 +3687,14 @@
         ginger_ale,
         #{
             categories=>[
-
+                spice,
+                aromatic,
+                alcohol,
+                drink,
+                liquor
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3334,10 +3702,14 @@
         ginger_beer,
         #{
             categories=>[
-
+                spice,
+                aromatic,
+                alcohol,
+                drink,
+                liquor
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3345,10 +3717,14 @@
         glace_cherry,
         #{
             categories=>[
-
+                fruit,
+                berry,
+                sweet,
+                dessert,
+                topping
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -3356,10 +3732,12 @@
         glass_noodles,
         #{
             categories=>[
-
+                noodle,
+                carb,
+                starch
             ],
             cuisines=>[
-
+                chinese
             ]
         }
     },
@@ -3367,10 +3745,12 @@
         gnocchi,
         #{
             categories=>[
-
+                pasta,
+                carb,
+                starch
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -3378,10 +3758,13 @@
         goat_cheese,
         #{
             categories=>[
-
+                dairy,
+                cheese,
+                soft_cheese,
+                cream
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3389,21 +3772,13 @@
         goat_milk,
         #{
             categories=>[
-
+                dairy,
+                drink,
+                milk,
+                cream
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        goats_cheese,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -3411,10 +3786,13 @@
         golden_syrup,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                dessert,
+                sweet
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3422,10 +3800,12 @@
         goose,
         #{
             categories=>[
-
+                white_meat,
+                meat,
+                poultry
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3433,10 +3813,13 @@
         gooseberry,
         #{
             categories=>[
-
+                berry,
+                fruit,
+                topping,
+                dessert
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -3444,10 +3827,12 @@
         goose_egg,
         #{
             categories=>[
-
+                egg,
+                binder,
+                dairy
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3455,10 +3840,12 @@
         goose_fat,
         #{
             categories=>[
-
+                fat,
+                topping,
+                sauce
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -3466,10 +3853,13 @@
         gorgonzola,
         #{
             categories=>[
-
+                cheese,
+                diary,
+                hard_cheese,
+                blue_cheese
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -3477,10 +3867,12 @@
         gouda,
         #{
             categories=>[
-
+                cheese,
+                diary,
+                hard_cheese
             ],
             cuisines=>[
-
+                dutch
             ]
         }
     },
@@ -3488,10 +3880,12 @@
         gram_flour,
         #{
             categories=>[
-
+                flour,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3499,10 +3893,13 @@
         grapefruit,
         #{
             categories=>[
-
+                citrus,
+                fruit,
+                juice,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3510,10 +3907,13 @@
         grapes,
         #{
             categories=>[
-
+                berru,
+                fruit,
+                topping,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3521,21 +3921,24 @@
         gravy,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
     {
-        green_breans,
+        green_beans,
         #{
             categories=>[
-
+                vegetable,
+                bean
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -3543,10 +3946,13 @@
         green_lentil,
         #{
             categories=>[
-
+                vegetable,
+                starch,
+                rice,
+                grain
             ],
             cuisines=>[
-
+                indian
             ]
         }
     },
@@ -3554,10 +3960,12 @@
         gruyere,
         #{
             categories=>[
-
+                cheese,
+                hard_cheese,
+                diary
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3565,10 +3973,15 @@
         guacamole,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                vegetable,
+                fruit,
+                dessert
             ],
             cuisines=>[
-
+                south_american,
+                north_american
             ]
         }
     },
@@ -3576,10 +3989,13 @@
         guava,
         #{
             categories=>[
-
+                fruit,
+                tropical,
+                dessert,
+                juice
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -3587,10 +4003,12 @@
         guinea_fowl,
         #{
             categories=>[
-
+                poultry,
+                meat,
+                white_meat
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -3598,10 +4016,11 @@
         guinea_pig,
         #{
             categories=>[
-
+                meat,
+                white_meat
             ],
             cuisines=>[
-
+                south_american
             ]
         }
     },
@@ -3609,10 +4028,12 @@
         gurnard,
         #{
             categories=>[
-
+                fish,
+                white_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3620,10 +4041,14 @@
         habanero_chilli,
         #{
             categories=>[
-
+                chilli,
+                spice,
+                aromatic,
+                topping,
+                spicy
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3631,10 +4056,12 @@
         haddock,
         #{
             categories=>[
-
+                fish,
+                white_fish,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3642,10 +4069,12 @@
         halibut,
         #{
             categories=>[
-
+                fish,
+                white_fish,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3653,10 +4082,13 @@
         halloumi,
         #{
             categories=>[
-
+                diary,
+                cheese,
+                hard_cheese,
+                soft_cheese
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -3664,10 +4096,13 @@
         ham,
         #{
             categories=>[
-
+                pork,
+                red_meat,
+                preserve,
+                pickle
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3675,10 +4110,12 @@
         hare,
         #{
             categories=>[
-
+                white_meat,
+                game,
+                meat
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -3686,10 +4123,13 @@
         harissa,
         #{
             categories=>[
-
+                spice,
+                chilli,
+                aromatic,
+                fat
             ],
             cuisines=>[
-
+                north_african
             ]
         }
     },
@@ -3697,10 +4137,13 @@
         hazelnut,
         #{
             categories=>[
-
+                nut,
+                bean,
+                topping,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3708,21 +4151,26 @@
         hoisin_sauce,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                fat
             ],
             cuisines=>[
-
+                chinese
             ]
         }
     },
     {
-        hollandaise_saice,
+        hollandaise_sauce,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                fat
             ],
             cuisines=>[
-
+                european,
+                french
             ]
         }
     },
@@ -3730,10 +4178,14 @@
         honey,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                sweet,
+                dessert,
+                thickener
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3741,10 +4193,12 @@
         honeycomb,
         #{
             categories=>[
-
+                topping,
+                sweet,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3752,10 +4206,12 @@
         horseradish,
         #{
             categories=>[
-
+                vegetable,
+                sauce,
+                spice
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -3763,10 +4219,13 @@
         hummus,
         #{
             categories=>[
-
+                starch,
+                dip,
+                sauce,
+                topping
             ],
             cuisines=>[
-
+                middle_eastern
             ]
         }
     },
@@ -3774,10 +4233,11 @@
         iceberg_lettuce,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3785,10 +4245,13 @@
         ice_cream,
         #{
             categories=>[
-
+                diary,
+                cream,
+                dessert,
+                sweet
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3796,10 +4259,12 @@
         icing_sugar,
         #{
             categories=>[
-
+                topping,
+                sweet,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3807,10 +4272,11 @@
         irish_stout,
         #{
             categories=>[
-
+                alcohol,
+                drink
             ],
             cuisines=>[
-
+                irish
             ]
         }
     },
@@ -3818,10 +4284,17 @@
         jaggery,
         #{
             categories=>[
-
+                sugar,
+                sweet,
+                topping,
+                dessert,
+                thickener
             ],
             cuisines=>[
-
+                asian,
+                jamaican,
+                north_african,
+                west_african
             ]
         }
     },
@@ -3829,10 +4302,13 @@
         jalapeno_chilli,
         #{
             categories=>[
-
+                pickle,
+                chilli,
+                spice,
+                preserve
             ],
             cuisines=>[
-
+                south_american
             ]
         }
     },
@@ -3840,10 +4316,16 @@
         japanese_pumpkin,
         #{
             categories=>[
-
+                pumpkin,
+                gourd,
+                squash,
+                winter_squash,
+                vegetable,
+                starch,
+                root_vegatble
             ],
             cuisines=>[
-
+                japanese
             ]
         }
     },
@@ -3851,10 +4333,13 @@
         jasmine_rice,
         #{
             categories=>[
-
+                rice,
+                grain,
+                starch,
+                thickener
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -3862,10 +4347,12 @@
         jelly,
         #{
             categories=>[
-
+                sweet,
+                dessert,
+                jelly
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -3873,10 +4360,13 @@
         jerk_seasoning,
         #{
             categories=>[
-
+                spice,
+                aromatic,
+                topping
             ],
             cuisines=>[
-
+                jamaican,
+                west_african
             ]
         }
     },
@@ -3884,10 +4374,13 @@
         jersey_royal_potato,
         #{
             categories=>[
-
+                starch,
+                root,
+                root_veg,
+                carb
             ],
             cuisines=>[
-
+                north_american
             ]
         }
     },
@@ -3895,10 +4388,13 @@
         jerusalem_artichoke,
         #{
             categories=>[
-
+                vegetable,
+                leafy_green,
+                root,
+                root_veg
             ],
             cuisines=>[
-
+                middle_eastern
             ]
         }
     },
@@ -3906,10 +4402,13 @@
         john_dory,
         #{
             categories=>[
-
+               fish,
+               white_fish,
+               white_meat,
+               meat
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -3917,10 +4416,14 @@
         jujube,
         #{
             categories=>[
-
+                fruit,
+                berry,
+                topping
             ],
             cuisines=>[
-
+                asian,
+                chinese,
+                indian
             ]
         }
     },
@@ -3928,10 +4431,13 @@
         juniper_berry,
         #{
             categories=>[
-
+                berry,
+                fruit,
+                topping,
+                dessert
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -3939,10 +4445,13 @@
         kale,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable,
+                flower,
+                topping
             ],
             cuisines=>[
-
+                north_american
             ]
         }
     },
@@ -3950,10 +4459,15 @@
         kecap_manis,
         #{
             categories=>[
-
+                sauce,
+                sweet,
+                spice,
+                aromatic,
+                thickener,
+                topping
             ],
             cuisines=>[
-
+                malaysian
             ]
         }
     },
@@ -3961,10 +4475,12 @@
         ketchup,
         #{
             categories=>[
-
+                sauce,
+                spice,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3972,10 +4488,13 @@
         kidney_bean,
         #{
             categories=>[
-
+                bean,
+                topping,
+                starch,
+                grain
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3983,10 +4502,13 @@
         king_edward_potato,
         #{
             categories=>[
-
+                starch,
+                root,
+                root_veg,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -3994,10 +4516,12 @@
         kiwi_fruit,
         #{
             categories=>[
-
+                fruit,
+                tropical,
+                juice
             ],
             cuisines=>[
-
+                polynesian
             ]
         }
     },
@@ -4005,10 +4529,15 @@
         kohlrabi,
         #{
             categories=>[
-
+                leafy_green,
+                salad,
+                vegetable,
+                root,
+                root_veg
             ],
             cuisines=>[
-
+                german,
+                european
             ]
         }
     },
@@ -4016,10 +4545,12 @@
         kumquat,
         #{
             categories=>[
-
+                fruit,
+                citrus,
+                tropical
             ],
             cuisines=>[
-
+                chinese
             ]
         }
     },
@@ -4027,10 +4558,12 @@
         lager,
         #{
             categories=>[
-
+                drink,
+                alcohol,
+                liquor
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4038,10 +4571,11 @@
         lamb,
         #{
             categories=>[
-
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4049,10 +4583,11 @@
         lamb_breast,
         #{
             categories=>[
-
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4060,10 +4595,11 @@
         lamb_chop,
         #{
             categories=>[
-
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4071,10 +4607,11 @@
         lamb_fillet,
         #{
             categories=>[
-
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4082,10 +4619,11 @@
         lamb_kidney,
         #{
             categories=>[
-
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4093,21 +4631,24 @@
         lamb_loin,
         #{
             categories=>[
-
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
     {
-        lamb_mine,
+        lamb_mince,
         #{
             categories=>[
-
+                meat,
+                mince,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4115,10 +4656,11 @@
         lamb_neck,
         #{
             categories=>[
-
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4126,10 +4668,11 @@
         lamb_rump,
         #{
             categories=>[
-
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4137,10 +4680,11 @@
         lamb_shank,
         #{
             categories=>[
-
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4148,10 +4692,11 @@
         lamb_shouler,
         #{
             categories=>[
-
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4159,10 +4704,12 @@
         langoustine,
         #{
             categories=>[
-
+                white_meat,
+                fish,
+                shellfish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4170,10 +4717,10 @@
         lard,
         #{
             categories=>[
-
+                fat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4181,10 +4728,14 @@
         lardon,
         #{
             categories=>[
-
+                preserve,
+                pork,
+                meat,
+                pickle,
+                red_meat
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -4192,10 +4743,12 @@
         leek,
         #{
             categories=>[
-
+                leafy_green,
+                aromatic,
+                vegetable
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -4203,10 +4756,11 @@
         leg_of_lamb,
         #{
             categories=>[
-
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4214,10 +4768,13 @@
         lemon,
         #{
             categories=>[
-
+                citrus,
+                fruit,
+                juice,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4225,10 +4782,15 @@
         lemon_curd,
         #{
             categories=>[
-
+                jelly,
+                preserve,
+                pickle,
+                citrus,
+                sweet,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4236,21 +4798,12 @@
         lemongrass,
         #{
             categories=>[
-
+                herb,
+                spice,
+                aromatic
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        lemon_juice,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                asian
             ]
         }
     },
@@ -4258,10 +4811,13 @@
         lemon_sole,
         #{
             categories=>[
-
+                fish,
+                white_meat,
+                meat,
+                white_fish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4269,10 +4825,14 @@
         lentil,
         #{
             categories=>[
-
+                seed,
+                grain,
+                rice,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                indian
             ]
         }
     },
@@ -4280,10 +4840,12 @@
         lettuce,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable,
+                salad
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4291,21 +4853,14 @@
         lime,
         #{
             categories=>[
-
+                citrus,
+                fruit,
+                juice,
+                topping
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        lime_juice,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                asian,
+                indian
             ]
         }
     },
@@ -4313,10 +4868,11 @@
         lime_leaf,
         #{
             categories=>[
-
+                flower,
+                aromatic
             ],
             cuisines=>[
-
+                indian
             ]
         }
     },
@@ -4324,10 +4880,15 @@
         lingonberry,
         #{
             categories=>[
-
+                berry,
+                fruit,
+                topping,
+                sweet,
+                sour,
+                dessert
             ],
             cuisines=>[
-
+                scandinavian
             ]
         }
     },
@@ -4335,10 +4896,12 @@
         linguine,
         #{
             categories=>[
-
+                starch,
+                carb,
+                pasta
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -4346,10 +4909,16 @@
         liquorice,
         #{
             categories=>[
-
+                sweet,
+                spice,
+                root,
+                root_veg,
+                dessert
             ],
             cuisines=>[
-
+                british,
+                european,
+                scandinavian
             ]
         }
     },
@@ -4357,10 +4926,12 @@
         little_gem_lettuce,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable,
+                salad
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4368,10 +4939,12 @@
         lobster,
         #{
             categories=>[
-
+                fish,
+                white_meat,
+                shellfish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4379,10 +4952,14 @@
         loganberry,
         #{
             categories=>[
-
+                berry,
+                sour,
+                sweet,
+                dessert,
+                topping
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -4390,10 +4967,14 @@
         long_grain_rice,
         #{
             categories=>[
-
+                grain,
+                starch,
+                thickener,
+                rice,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4401,10 +4982,14 @@
         lovage,
         #{
             categories=>[
-
+                vegetable,
+                leafy_green,
+                herb,
+                sweet
             ],
             cuisines=>[
-
+                european,
+                asian
             ]
         }
     },
@@ -4412,10 +4997,15 @@
         lychee,
         #{
             categories=>[
-
+                berry,
+                fruit,
+                sweet,
+                syrup,
+                dessert,
+                topping
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -4423,10 +5013,14 @@
         macadamia_nut,
         #{
             categories=>[
-
+                nut,
+                bean,
+                carb,
+                dessert,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4434,10 +5028,13 @@
         macaroni,
         #{
             categories=>[
-
+                starch,
+                carb,
+                pasta
             ],
             cuisines=>[
-
+                italian,
+                north_american
             ]
         }
     },
@@ -4445,10 +5042,12 @@
         macaroon,
         #{
             categories=>[
-
+                sweet,
+                dessert,
+                topping
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -4456,10 +5055,13 @@
         mace,
         #{
             categories=>[
-
+                spice,
+                sweet,
+                topping,
+                aromatic
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4467,10 +5069,12 @@
         mackerel,
         #{
             categories=>[
-
-            ],
+                fish,
+                white_meat,
+                white_fish
+            ],      
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4478,10 +5082,14 @@
         maize,
         #{
             categories=>[
-
+                starch,
+                rice,
+                grain,
+                carb
             ],
             cuisines=>[
-
+                north_american,
+                south_american
             ]
         }
     },
@@ -4489,10 +5097,12 @@
         manchego,
         #{
             categories=>[
-
+                diary,
+                cheese,
+                hard_cheese
             ],
             cuisines=>[
-
+                spanish
             ]
         }
     },
@@ -4500,10 +5110,12 @@
         manderin,
         #{
             categories=>[
-
+                fruit,
+                citrus,
+                juice
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4511,10 +5123,11 @@
         mangetout,
         #{
             categories=>[
-
+                vegetable,
+                bean
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -4522,21 +5135,12 @@
         mango,
         #{
             categories=>[
-
+                tropical,
+                fruit,
+                juice
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        mango_juice,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                asian
             ]
         }
     },
@@ -4544,10 +5148,11 @@
         mangosteen,
         #{
             categories=>[
-
+                tropical,
+                fruit
             ],
             cuisines=>[
-
+                malaysian
             ]
         }
     },
@@ -4555,10 +5160,13 @@
         maple_syrup,
         #{
             categories=>[
-
+                sweet,
+                topping,
+                sauce,
+                dessert
             ],
             cuisines=>[
-
+                canadian
             ]
         }
     },
@@ -4566,10 +5174,10 @@
         margarine,
         #{
             categories=>[
-
+                fat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4577,10 +5185,12 @@
         marjoram,
         #{
             categories=>[
-
+                herb,
+                leafy_green,
+                vegetable
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -4588,10 +5198,15 @@
         marrow,
         #{
             categories=>[
-
+                root,
+                root_veg,
+                gourd,
+                winter_squash,
+                squash,
+                vegetable
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -4599,10 +5214,13 @@
         marrowfat_pea,
         #{
             categories=>[
-
+                beans,
+                peas,
+                vegetable,
+                topping
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -4610,10 +5228,12 @@
         marshmallow,
         #{
             categories=>[
-
+                sweet,
+                topping,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4621,10 +5241,14 @@
         mascarpone,
         #{
             categories=>[
-
+                diary,
+                cream,
+                cheese,
+                soft_cheese,
+                binder
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -4632,10 +5256,12 @@
         matzo,
         #{
             categories=>[
-
+                bread,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                middle_eastern
             ]
         }
     },
@@ -4643,10 +5269,13 @@
         mayonnaise,
         #{
             categories=>[
-
+                sauce,
+                thickener,
+                topping,
+                dairy
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4654,10 +5283,12 @@
         melon,
         #{
             categories=>[
-
+                gourd,
+                fruit,
+                tropical
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4665,10 +5296,11 @@
         milk,
         #{
             categories=>[
-
+                dairy,
+                drink
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4676,10 +5308,14 @@
         milk_chocolate,
         #{
             categories=>[
-
+                chocolate,
+                dessert,
+                sweet,
+                binder,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4687,10 +5323,12 @@
         mint,
         #{
             categories=>[
-
+                herb,
+                leaf,
+                flower
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4698,10 +5336,13 @@
         mint_sauce,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                herb
             ],
             cuisines=>[
-
+                british,
+                indian
             ]
         }
     },
@@ -4709,10 +5350,11 @@
         mirin,
         #{
             categories=>[
-
+                alcohol,
+                sauce
             ],
             cuisines=>[
-
+                japanese
             ]
         }
     },
@@ -4720,10 +5362,12 @@
         miso,
         #{
             categories=>[
-
+                bean,
+                herb,
+                spice
             ],
             cuisines=>[
-
+                japanese
             ]
         }
     },
@@ -4731,10 +5375,13 @@
         molasses,
         #{
             categories=>[
-
+                sweet,
+                dessert,
+                sauce,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4742,10 +5389,13 @@
         monk_fish,
         #{
             categories=>[
-
+                fish,
+                white_fish,
+                white_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4753,10 +5403,12 @@
         monks_beard,
         #{
             categories=>[
-
-            ],
+                herb,
+                vegetable,
+                leafy_green
+            ],  
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -4764,10 +5416,12 @@
         mozzarella,
         #{
             categories=>[
-
+                dairy,
+                cheese,
+                soft_cheese
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -4775,10 +5429,12 @@
         muesli,
         #{
             categories=>[
-
+                grain,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4786,7 +5442,10 @@
         mulberry,
         #{
             categories=>[
-
+                berry,
+                fruit,
+                sweet,
+                topping
             ],
             cuisines=>[
 
@@ -4797,10 +5456,13 @@
         mung_bean,
         #{
             categories=>[
-
+                bean,
+                topping,
+                sweet,
+                fruit
             ],
             cuisines=>[
-
+                chinese
             ]
         }
     },
@@ -4808,10 +5470,12 @@
         mussels,
         #{
             categories=>[
-
+                fish,
+                shell_fish,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4819,10 +5483,12 @@
         mustard_cress,
         #{
             categories=>[
-
+                herb,
+                leafy_green,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4830,10 +5496,12 @@
         naan_bread,
         #{
             categories=>[
-
+                bread,
+                carb,
+                starch
             ],
             cuisines=>[
-
+                indian
             ]
         }
     },
@@ -4841,10 +5509,12 @@
         nashi_apple,
         #{
             categories=>[
-
+                fruit,
+                sweet,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4852,10 +5522,13 @@
         nectarin,
         #{
             categories=>[
-
+                fruit,
+                citrus,
+                sweet,
+                juice
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4863,10 +5536,13 @@
         nettle,
         #{
             categories=>[
-
+                herb,
+                leafy_green,
+                vegetable
             ],
             cuisines=>[
-
+                british,
+                european
             ]
         }
     },
@@ -4874,10 +5550,14 @@
         new_potato,
         #{
             categories=>[
-
+                starch,
+                carb,
+                root,
+                root_veg,
+                vegetable
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4885,10 +5565,12 @@
         nori,
         #{
             categories=>[
-
+                vegetable,
+                garnish,
+                topping
             ],
             cuisines=>[
-
+                japanese
             ]
         }
     },
@@ -4896,10 +5578,13 @@
         nougat,
         #{
             categories=>[
-
+                sweet,
+                thickener,
+                dessert,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4907,10 +5592,15 @@
         nutmeg,
         #{
             categories=>[
-
+                spice,
+                sweet,
+                aromatic,
+                dessert,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4918,10 +5608,14 @@
         oatmeal,
         #{
             categories=>[
-
+                starch,
+                grain,
+                rice,
+                carb,
+                flour
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4929,10 +5623,13 @@
         oats,
         #{
             categories=>[
-
+                starch,
+                grain,
+                rice,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4940,10 +5637,13 @@
         octopus,
         #{
             categories=>[
-
+                fish,
+                meat,
+                white_fish,
+                white_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4951,10 +5651,11 @@
         oil,
         #{
             categories=>[
-
+                fat,
+                dip
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4962,10 +5663,12 @@
         okra,
         #{
             categories=>[
-
+                vegetable,
+                thickener
             ],
             cuisines=>[
-
+                north_american,
+                asian
             ]
         }
     },
@@ -4973,10 +5676,14 @@
         olive,
         #{
             categories=>[
-
+                fruit,
+                vegetable,
+                herb,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -4984,10 +5691,11 @@
         olive_oil,
         #{
             categories=>[
-
+                fat,
+                dip
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -4995,10 +5703,13 @@
         onion,
         #{
             categories=>[
-
+                vegetable,
+                root_veg,
+                spice,
+                aromatic
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5006,10 +5717,12 @@
         orange,
         #{
             categories=>[
-
+                fruit,
+                citrus,
+                juice
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5017,10 +5730,12 @@
         oregano,
         #{
             categories=>[
-
+                herb,
+                vegetable,
+                aromatic
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5028,10 +5743,12 @@
         oxtail,
         #{
             categories=>[
-
+                meat,
+                red_meat,
+                beef
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5039,10 +5756,12 @@
         oyster,
         #{
             categories=>[
-
+                fish,
+                shellfish,
+                white_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5050,10 +5769,12 @@
         oyster_mushroom,
         #{
             categories=>[
-
+                mushroom,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5061,10 +5782,12 @@
         oyster_sauce,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                dip
             ],
             cuisines=>[
-
+                chinese
             ]
         }
     },
@@ -5072,10 +5795,13 @@
         palm_sugar,
         #{
             categories=>[
-
+                sweet,
+                sugar,
+                dessert,
+                thickener
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5083,10 +5809,13 @@
         pancetta,
         #{
             categories=>[
-
+                pork,
+                preserve,
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -5094,10 +5823,14 @@
         pandan_leaf,
         #{
             categories=>[
-
+                herb,
+                vegetable,
+                leafy_green,
+                fat,
+                drink
             ],
             cuisines=>[
-
+                malaysian
             ]
         }
     },
@@ -5105,10 +5838,12 @@
         paneer,
         #{
             categories=>[
-
+                cheese,
+                soft_cheese,
+                dairy
             ],
             cuisines=>[
-
+                indian
             ]
         }
     },
@@ -5116,10 +5851,12 @@
         papaya,
         #{
             categories=>[
-
+                tropical,
+                fruit,
+                juice
             ],
             cuisines=>[
-
+                malaysian
             ]
         }
     },
@@ -5127,10 +5864,12 @@
         pappardelle,
         #{
             categories=>[
-
+                starch,
+                pasta,
+                carb
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -5138,10 +5877,13 @@
         paprika,
         #{
             categories=>[
-
+                spice,
+                chilli,
+                aromatic,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5149,10 +5891,12 @@
         parmesan,
         #{
             categories=>[
-
+                cheese,
+                hard_cheese,
+                dairy
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -5160,10 +5904,12 @@
         parsley,
         #{
             categories=>[
-
+                herb,
+                vegetable,
+                aromatic
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -5171,10 +5917,14 @@
         parsnip,
         #{
             categories=>[
-
+                vegetable,
+                root,
+                root_veg,
+                carb,
+                starch
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -5182,10 +5932,12 @@
         partridge,
         #{
             categories=>[
-
+                poultry,
+                white_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5193,10 +5945,12 @@
         passata,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                dip
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -5204,10 +5958,14 @@
         passion_fruit,
         #{
             categories=>[
-
+                tropical,
+                fruit,
+                juice,
+                garnish,
+                topping
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -5215,10 +5973,13 @@
         pastrami,
         #{
             categories=>[
-
+                beef,
+                red_meat,
+                preserve,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5226,21 +5987,13 @@
         pate,
         #{
             categories=>[
-
+                sauce,
+                red_meat,
+                white_meat,
+                topping
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        peach,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                european
             ]
         }
     },
@@ -5248,10 +6001,14 @@
         peanut,
         #{
             categories=>[
-
+                nut,
+                bean,
+                topping,
+                fruit,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5259,10 +6016,12 @@
         peanut_butter,
         #{
             categories=>[
-
+                sweet,
+                sauce,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5270,10 +6029,10 @@
         peanut_oil,
         #{
             categories=>[
-
+                fat
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -5281,10 +6040,11 @@
         pear,
         #{
             categories=>[
-
+                fruit,
+                juice
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -5292,10 +6052,16 @@
         pearl_barley,
         #{
             categories=>[
-
+                grain,
+                starch,
+                thickener,
+                rice,
+                carb
             ],
             cuisines=>[
-
+                european,
+                irish,
+                british
             ]
         }
     },
@@ -5303,10 +6069,11 @@
         pea_shoot,
         #{
             categories=>[
-
+                vegetable,
+                spring_green
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5314,10 +6081,13 @@
         pecan,
         #{
             categories=>[
-
+                nut,
+                sweet,
+                garnish,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5325,10 +6095,12 @@
         pecorino,
         #{
             categories=>[
-
+                dairy,
+                cheese,
+                hard_cheese
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -5336,10 +6108,12 @@
         penne,
         #{
             categories=>[
-
+                starch,
+                carb,
+                pasta
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -5347,10 +6121,12 @@
         pepper,
         #{
             categories=>[
-
+                spice,
+                aromatic,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5358,7 +6134,9 @@
         peppercorn,
         #{
             categories=>[
-
+                spice,
+                aromatic,
+                garnish
             ],
             cuisines=>[
 
@@ -5369,10 +6147,14 @@
         pepperoni,
         #{
             categories=>[
-
+                spice,
+                meat,
+                pork,
+                preserve
             ],
             cuisines=>[
-
+                italian,
+                north_american
             ]
         }
     },
@@ -5380,10 +6162,15 @@
         pesto,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                dairy,
+                nut,
+                dip,
+                fat
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -5391,21 +6178,12 @@
         pheasant,
         #{
             categories=>[
-
+                meat,
+                white_meat,
+                poultry
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        pickled_onion,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -5413,10 +6191,12 @@
         pig_cheeks,
         #{
             categories=>[
-
+                pork,
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                north_american
             ]
         }
     },
@@ -5424,10 +6204,12 @@
         pigeon_peas,
         #{
             categories=>[
-
+                herb,
+                vegetable,
+                bean
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -5435,10 +6217,12 @@
         pineapple,
         #{
             categories=>[
-
+                tropical,
+                fruit,
+                juice
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -5446,10 +6230,12 @@
         pine_nut,
         #{
             categories=>[
-
+                nut,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -5457,10 +6243,12 @@
         pink_peppercorn,
         #{
             categories=>[
-
+                spice,
+                aromatic,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5468,10 +6256,11 @@
         pinto_bean,
         #{
             categories=>[
-
+                starch,
+                bean
             ],
             cuisines=>[
-
+                south_american
             ]
         }
     },
@@ -5479,10 +6268,13 @@
         pistachio,
         #{
             categories=>[
-
+                nut,
+                sweet,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5490,10 +6282,12 @@
         pitta_bread,
         #{
             categories=>[
-
+                starch,
+                carb,
+                bread
             ],
             cuisines=>[
-
+                middle_eastern
             ]
         }
     },
@@ -5501,10 +6295,13 @@
         plaice,
         #{
             categories=>[
-
+                meat,
+                fish,
+                white_meat,
+                white_fish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5512,10 +6309,11 @@
         plain_flour,
         #{
             categories=>[
-
+                flour,
+                thickener
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5523,10 +6321,13 @@
         plantain,
         #{
             categories=>[
-
+                sweet,
+                fruit,
+                dessert,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5534,10 +6335,15 @@
         plum,
         #{
             categories=>[
-
+                sweet,
+                fruit,
+                juice,
+                dessert,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5545,10 +6351,12 @@
         polenta,
         #{
             categories=>[
-
+                carb,
+                starch,
+                grain
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -5556,10 +6364,13 @@
         pollock,
         #{
             categories=>[
-
+                meat,
+                white_meat,
+                fish,
+                white_fish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5567,10 +6378,12 @@
         pomegrante,
         #{
             categories=>[
-
+                fruit,
+                tropical,
+                juice
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5578,21 +6391,13 @@
         pomelo,
         #{
             categories=>[
-
+                fruit,
+                sweet,
+                citrus,
+                sour
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        popcorn,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                asian
             ]
         }
     },
@@ -5600,10 +6405,13 @@
         poppy_seed,
         #{
             categories=>[
-
+                seed,
+                grain,
+                garnish,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5611,10 +6419,12 @@
         porcini_mushroom,
         #{
             categories=>[
-
+                mushroom,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -5622,10 +6432,12 @@
         pork,
         #{
             categories=>[
-
+                pork,
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5633,10 +6445,13 @@
         pork_belly,
         #{
             categories=>[
-
+                pork,
+                meat,
+                fat,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5644,10 +6459,12 @@
         pork_chop,
         #{
             categories=>[
-
+                pork,
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5655,10 +6472,12 @@
         pork_fillet,
         #{
             categories=>[
-
+                pork,
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5666,10 +6485,12 @@
         pork_leg,
         #{
             categories=>[
-
+                pork,
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5677,10 +6498,12 @@
         pork_loin,
         #{
             categories=>[
-
+                pork,
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5688,10 +6511,13 @@
         pork_mince,
         #{
             categories=>[
-
+                pork,
+                red_meat,
+                meat,
+                mince
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5699,10 +6525,12 @@
         pork_rib,
         #{
             categories=>[
-
+                pork,
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5710,10 +6538,12 @@
         pork_sausage,
         #{
             categories=>[
-
+                pork,
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5721,10 +6551,12 @@
         pork_shoulder,
         #{
             categories=>[
-
+                pork,
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5732,10 +6564,12 @@
         port,
         #{
             categories=>[
-
+                alcohol,
+                drink,
+                liquor
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -5743,10 +6577,11 @@
         portobello_mushroom,
         #{
             categories=>[
-
+                mushroom,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5754,10 +6589,12 @@
         poussin,
         #{
             categories=>[
-
+                meat,
+                white_meat,
+                poultry
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5765,10 +6602,14 @@
         praline,
         #{
             categories=>[
-
+                nut,
+                sweet,
+                dessert,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5776,10 +6617,12 @@
         prawn,
         #{
             categories=>[
-
+                fish,
+                shellfish,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5787,10 +6630,12 @@
         pretzels,
         #{
             categories=>[
-
+                starch,
+                bread,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5798,10 +6643,14 @@
         prosciutto,
         #{
             categories=>[
-
+                pork,
+                preserve,
+                pickle,
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -5809,10 +6658,15 @@
         prune,
         #{
             categories=>[
-
+                fruit,
+                sweet,
+                juice,
+                dessert,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5820,10 +6674,14 @@
         pudding_rice,
         #{
             categories=>[
-
+                starch,
+                carb,
+                grain,
+                rice,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5831,10 +6689,12 @@
         pumpernickel_bread,
         #{
             categories=>[
-
+                bread,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5842,10 +6702,14 @@
         pumpkin,
         #{
             categories=>[
-
+                fruit,
+                vegetable,
+                gourd,
+                winter_squash,
+                squash
             ],
             cuisines=>[
-
+                north_american
             ]
         }
     },
@@ -5853,10 +6717,14 @@
         pumpkin_seed,
         #{
             categories=>[
-
+                seed,
+                nut,
+                spice,
+                herb,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5864,10 +6732,12 @@
         purple_sprouting_broccoli,
         #{
             categories=>[
-
+                vegetable,
+                leafy_green,
+                salad
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5875,10 +6745,14 @@
         puy_lentils,
         #{
             categories=>[
-
+                bean,
+                grain,
+                rice,
+                starch,
+                thickener
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5886,10 +6760,12 @@
         quail_egg,
         #{
             categories=>[
-
+                dairy,
+                egg,
+                binder
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5897,10 +6773,13 @@
         quinoa,
         #{
             categories=>[
-
+                grain,
+                starch,
+                carb,
+                rice
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5908,10 +6787,12 @@
         rabbit,
         #{
             categories=>[
-
+                game,
+                white_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5919,10 +6800,14 @@
         radicchio,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable,
+                salad,
+                leaf,
+                flower
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5930,10 +6815,14 @@
         radish,
         #{
             categories=>[
-
+                root,
+                root_veg,
+                vegetable,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5941,10 +6830,12 @@
         rainbow_chard,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable,
+                salad
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5952,10 +6843,13 @@
         rainbow_trout,
         #{
             categories=>[
-
+                meat,
+                white_meat,
+                fish,
+                white_fish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5963,10 +6857,13 @@
         raisin,
         #{
             categories=>[
-
+                fruit,
+                preserve,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -5974,10 +6871,12 @@
         raita,
         #{
             categories=>[
-
+                dip,
+                sauce,
+                topping
             ],
             cuisines=>[
-
+                indian
             ]
         }
     },
@@ -5985,10 +6884,12 @@
         ramen_noodles,
         #{
             categories=>[
-
+                starch,
+                noodle,
+                carb
             ],
             cuisines=>[
-
+                japanese
             ]
         }
     },
@@ -5996,10 +6897,10 @@
         rapeseed_oil,
         #{
             categories=>[
-
+                fat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6007,10 +6908,15 @@
         raspberry,
         #{
             categories=>[
-
+                berry,
+                fruit,
+                juice,
+                sweet,
+                dessert,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6018,10 +6924,12 @@
         red_cabbage,
         #{
             categories=>[
-
+                leafy_green,
+                salad,
+                vegetable
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6029,10 +6937,15 @@
         redcurrant,
         #{
             categories=>[
-
+                berry,
+                fruit,
+                sweet,
+                dessert,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6040,10 +6953,13 @@
         red_leicester,
         #{
             categories=>[
-
+                cheese,
+                diary,
+                hard_cheese
             ],
             cuisines=>[
-
+                british,
+                european
             ]
         }
     },
@@ -6051,10 +6967,13 @@
         red_lentil,
         #{
             categories=>[
-
+                bean,
+                grain,
+                rice,
+                carb
             ],
             cuisines=>[
-
+                indian
             ]
         }
     },
@@ -6062,10 +6981,13 @@
         red_onion,
         #{
             categories=>[
-
+                aromatic,
+                herb,
+                vegetable,
+                spice
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6073,10 +6995,14 @@
         red_rice,
         #{
             categories=>[
-
+                grain,
+                carb,
+                rice,
+                starch,
+                thickener
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6084,10 +7010,16 @@
         rhubard,
         #{
             categories=>[
-
+                sour,
+                fruit,
+                root,
+                root_veg,
+                dessert
             ],
             cuisines=>[
-
+                british,
+                european,
+                north_american
             ]
         }
     },
@@ -6095,10 +7027,15 @@
         rice_flour,
         #{
             categories=>[
-
+                flour,
+                starch,
+                thickener,
+                sweet
             ],
             cuisines=>[
-
+                asian,
+                japanese,
+                chinese
             ]
         }
     },
@@ -6106,10 +7043,16 @@
         rice_noodles,
         #{
             categories=>[
-
+                starch,
+                noodle,
+                carb
             ],
             cuisines=>[
-
+                chinese,
+                japanese,
+                korean,
+                malaysian,
+                vietnamese
             ]
         }
     },
@@ -6117,10 +7060,10 @@
         rice_vinegar,
         #{
             categories=>[
-
+                vinegar
             ],
             cuisines=>[
-
+                japanese
             ]
         }
     },
@@ -6128,10 +7071,12 @@
         rice_wine,
         #{
             categories=>[
-
+                alcohol,
+                drink,
+                liquor
             ],
             cuisines=>[
-
+                japanese
             ]
         }
     },
@@ -6139,10 +7084,13 @@
         ricotta,
         #{
             categories=>[
-
+                dairy,
+                cream,
+                cheese,
+                soft_cheese
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6150,10 +7098,12 @@
         rigatoni,
         #{
             categories=>[
-
+                starch,
+                carb,
+                pasta
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -6161,10 +7111,13 @@
         risotto_rice,
         #{
             categories=>[
-
+                starch,
+                carb,
+                rice,
+                grain
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -6172,10 +7125,12 @@
         rocket,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable,
+                salad
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6183,10 +7138,12 @@
         roquefort,
         #{
             categories=>[
-
+                cheese,
+                dairy,
+                blue_cheese
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -6194,10 +7151,11 @@
         rosemary,
         #{
             categories=>[
-
+                herb,
+                aromatic
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -6205,10 +7163,12 @@
         rosewater,
         #{
             categories=>[
-
+                drink,
+                aromatic,
+                dessert
             ],
             cuisines=>[
-
+                middle_eastern
             ]
         }
     },
@@ -6216,10 +7176,13 @@
         rum,
         #{
             categories=>[
-
+                alcoholic,
+                drink,
+                liquor
             ],
             cuisines=>[
-
+                west_african,
+                jamaican
             ]
         }
     },
@@ -6227,10 +7190,12 @@
         runner_beans,
         #{
             categories=>[
-
+                bean,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                south_american
             ]
         }
     },
@@ -6238,10 +7203,12 @@
         rye_bread,
         #{
             categories=>[
-
+                starch,
+                carb,
+                bread
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6249,10 +7216,14 @@
         saffron,
         #{
             categories=>[
-
+                spice,
+                aromatic,
+                dessert,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                indian
             ]
         }
     },
@@ -6260,10 +7231,11 @@
         sage,
         #{
             categories=>[
-
+                herb,
+                leaf
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6271,10 +7243,12 @@
         salad_leaf,
         #{
             categories=>[
-
+                leafy_green,
+                salad,
+                leaf
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6282,10 +7256,13 @@
         salami,
         #{
             categories=>[
-
+                pork,
+                red_meat,
+                meat,
+                preserve
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -6293,10 +7270,13 @@
         salmon,
         #{
             categories=>[
-
+                fish,
+                white_meat,
+                white_fish,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6304,10 +7284,13 @@
         salsify,
         #{
             categories=>[
-
+                leafy_green,
+                flower,
+                root,
+                root_veg
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -6315,10 +7298,12 @@
         samphire,
         #{
             categories=>[
-
+                vegetable,
+                garnish,
+                topping
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -6326,10 +7311,13 @@
         sardine,
         #{
             categories=>[
-
+                fish,
+                white_meat,
+                white_fish,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6337,10 +7325,17 @@
         satsuma,
         #{
             categories=>[
-
+                fruit,
+                juice,
+                citrus,
+                sour,
+                sweet,
+                dessert,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6348,10 +7343,12 @@
         savory,
         #{
             categories=>[
-
+                leaf,
+                leafy_green,
+                herb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6359,10 +7356,12 @@
         savoy_cabbage,
         #{
             categories=>[
-
+                leafy_green,
+                vegetable,
+                salad
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6370,10 +7369,17 @@
         scallop,
         #{
             categories=>[
-
+                fish,
+                white_meat,
+                shellfish,
+                white_fish,
+                meat
             ],
             cuisines=>[
-
+                french,
+                british,
+                european,
+                north_american
             ]
         }
     },
@@ -6381,10 +7387,15 @@
         scotch_bonnet_chilli,
         #{
             categories=>[
-
+                chilli,
+                spice,
+                aromatic,
+                garnish
             ],
             cuisines=>[
-
+                west_african,
+                north_african,
+                jamaican
             ]
         }
     },
@@ -6392,10 +7403,13 @@
         sea_bass,
         #{
             categories=>[
-
+                white_meat,
+                meat,
+                white_fish,
+                fish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6403,10 +7417,13 @@
         sea_bream,
         #{
             categories=>[
-
+                white_meat,
+                meat,
+                white_fish,
+                fish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6414,10 +7431,13 @@
         sea_trout,
         #{
             categories=>[
-
+                white_meat,
+                meat,
+                white_fish,
+                fish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6425,10 +7445,12 @@
         seaweed,
         #{
             categories=>[
-
+                vegetable,
+                garnish,
+                topping
             ],
             cuisines=>[
-
+                japanese
             ]
         }
     },
@@ -6436,10 +7458,12 @@
         self_raising_flour,
         #{
             categories=>[
-
+                flour,
+                starch,
+                thickener
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6447,10 +7471,15 @@
         semolina,
         #{
             categories=>[
-
+                flour,
+                starch,
+                thickener,
+                dessert,
+                sweet
             ],
             cuisines=>[
-
+                british,
+                italian
             ]
         }
     },
@@ -6458,10 +7487,12 @@
         serrano_ham,
         #{
             categories=>[
-
+                pork,
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -6469,10 +7500,14 @@
         sesame_oil,
         #{
             categories=>[
-
+                fat
             ],
             cuisines=>[
-
+                asian,
+                chinese,
+                japanese,
+                malaysian,
+                thai
             ]
         }
     },
@@ -6480,10 +7515,12 @@
         seville_orange,
         #{
             categories=>[
-
+                fruit,
+                juice,
+                citrus
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6491,10 +7528,13 @@
         shallot,
         #{
             categories=>[
-
+                vegetable,
+                herb,
+                spice,
+                aromatic
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6502,10 +7542,12 @@
         sherry,
         #{
             categories=>[
-
+                drink,
+                alchol,
+                liquor
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6513,10 +7555,11 @@
         sherry_vinegar,
         #{
             categories=>[
-
+                alcohol,
+                vinegar
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6524,10 +7567,12 @@
         shiitake_mushroom,
         #{
             categories=>[
-
+                mushroom
             ],
             cuisines=>[
-
+                asian,
+                japanese,
+                chinese
             ]
         }
     },
@@ -6535,10 +7580,13 @@
         sichuan_pepper,
         #{
             categories=>[
-
+                spice,
+                aromatic,
+                topping,
+                garnish
             ],
             cuisines=>[
-
+                chinese
             ]
         }
     },
@@ -6546,10 +7594,12 @@
         silverside_of_beef,
         #{
             categories=>[
-
+                beef,
+                red_meat,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6557,10 +7607,15 @@
         single_cream,
         #{
             categories=>[
-
+                cream,
+                dairy,
+                thickener,
+                sweet,
+                dessert,
+                topping
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6568,10 +7623,14 @@
         smoked_cheese,
         #{
             categories=>[
-
+                dairy,
+                cheese,
+                hard_cheese,
+                soft_cheese,
+                cream
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6579,10 +7638,12 @@
         soba_noodles,
         #{
             categories=>[
-
+                noodle,
+                carb,
+                starch
             ],
             cuisines=>[
-
+                japanese
             ]
         }
     },
@@ -6590,10 +7651,13 @@
         soda_bread,
         #{
             categories=>[
-
+                bread,
+                starch,
+                grain,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6601,10 +7665,12 @@
         sourdough_bread,
         #{
             categories=>[
-
+                bread,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6612,10 +7678,12 @@
         soya_beans,
         #{
             categories=>[
-
+                beans,
+                garnish,
+                topping
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -6623,10 +7691,12 @@
         soya_flour,
         #{
             categories=>[
-
+                flour,
+                starch,
+                thickener,
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6634,10 +7704,12 @@
         soya_milk,
         #{
             categories=>[
-
+                dairy,
+                drink,
+                sweet
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6645,10 +7717,13 @@
         soy_sauce,
         #{
             categories=>[
-
+                seasoning,
+                salt
             ],
             cuisines=>[
-
+                chinese,
+                japanese,
+                asian
             ]
         }
     },
@@ -6656,10 +7731,12 @@
         spaghetti,
         #{
             categories=>[
-
+                pasta,
+                carb,
+                starch
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -6667,10 +7744,13 @@
         spelt,
         #{
             categories=>[
-
+                carb,
+                starch,
+                grain,
+                rice
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6678,10 +7758,12 @@
         spelt_flour,
         #{
             categories=>[
-
+                flour,
+                starch,
+                thickener
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6689,21 +7771,11 @@
         spinach,
         #{
             categories=>[
-
+                leafy_green,
+                salad
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        split_peas,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -6711,10 +7783,13 @@
         spring_onion,
         #{
             categories=>[
-
+                leafy_green,
+                salad,
+                herb,
+                aromatic
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6722,10 +7797,13 @@
         squid,
         #{
             categories=>[
-
+                fish,
+                white_meat,
+                white_fish,
+                meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6733,10 +7811,12 @@
         star_anise,
         #{
             categories=>[
-
+                spice,
+                aromatic
             ],
             cuisines=>[
-
+                chinese,
+                japanese
             ]
         }
     },
@@ -6744,10 +7824,12 @@
         steak,
         #{
             categories=>[
-
+                beef,
+                meat,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6755,10 +7837,15 @@
         stem_ginger,
         #{
             categories=>[
-
+                spice,
+                pickle,
+                preserve,
+                aromatic
             ],
             cuisines=>[
-
+                japanese,
+                chinese,
+                indian
             ]
         }
     },
@@ -6766,10 +7853,12 @@
         stilton,
         #{
             categories=>[
-
+                cheese,
+                dairy,
+                hard_cheese
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -6777,10 +7866,12 @@
         strawberry,
         #{
             categories=>[
-
+                berry,
+                fruit,
+                juice
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6788,10 +7879,10 @@
         suet,
         #{
             categories=>[
-
+                fat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6799,10 +7890,14 @@
         sumac,
         #{
             categories=>[
-
+                spice,
+                fruit,
+                herb,
+                garnish,
+                topping
             ],
             cuisines=>[
-
+                middle_eastern
             ]
         }
     },
@@ -6810,10 +7905,15 @@
         sweetcorn,
         #{
             categories=>[
-
+                grain,
+                sweet,
+                dessert,
+                topping,
+                garnish,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6821,10 +7921,15 @@
         sweet_potato,
         #{
             categories=>[
-
+                root,
+                root_veg,
+                sweet,
+                dessert,
+                carb,
+                starch
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6832,10 +7937,14 @@
         tabasco,
         #{
             categories=>[
-
+                sauce,
+                dip,
+                garnish,
+                topping,
+                chilli
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6843,10 +7952,12 @@
         tagliatelle,
         #{
             categories=>[
-
+                pasta,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -6854,10 +7965,11 @@
         tahini,
         #{
             categories=>[
-
+                sauce,
+                dip
             ],
             cuisines=>[
-
+                middle_eastern
             ]
         }
     },
@@ -6865,10 +7977,12 @@
         tamari,
         #{
             categories=>[
-
+                sauce,
+                salty,
+                dip
             ],
             cuisines=>[
-
+                japanese
             ]
         }
     },
@@ -6876,10 +7990,15 @@
         tamarind,
         #{
             categories=>[
-
+                sauce,
+                citrus,
+                fruit,
+                nut,
+                herb,
+                spice
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6887,10 +8006,12 @@
         tangerine,
         #{
             categories=>[
-
+                fruit,
+                citrus,
+                juice
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6898,10 +8019,13 @@
         tapioca,
         #{
             categories=>[
-
+                starch,
+                flour,
+                thickener,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6909,10 +8033,15 @@
         taro,
         #{
             categories=>[
-
+                root,
+                root_veg,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                asian,
+                chinese,
+                japanese
             ]
         }
     },
@@ -6920,10 +8049,13 @@
         tarragon,
         #{
             categories=>[
-
+                herb,
+                leaf,
+                leafy_green,
+                vegetable
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -6931,21 +8063,13 @@
         tartare_sauce,
         #{
             categories=>[
-
+                sauce,
+                dip,
+                topping,
+                garnish
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        tayberry,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -6953,10 +8077,12 @@
         tequila,
         #{
             categories=>[
-
+                alcohol,
+                drink,
+                liquor
             ],
             cuisines=>[
-
+                south_american
             ]
         }
     },
@@ -6964,21 +8090,13 @@
         teriyaki_sauce,
         #{
             categories=>[
-
+                sauce,
+                dip,
+                salty,
+                sweet
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        terrine,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                japanese
             ]
         }
     },
@@ -6986,10 +8104,11 @@
         thyme,
         #{
             categories=>[
-
+                herb,
+                aromatic
             ],
             cuisines=>[
-
+                european
             ]
         }
     },
@@ -6997,10 +8116,15 @@
         tofu,
         #{
             categories=>[
-
+                dairy,
+                jelly,
+                meat,
+                red_meat,
+                white_meat,
+                fish
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -7008,10 +8132,14 @@
         tomato,
         #{
             categories=>[
-
+                topping,
+                vegetable,
+                fruit,
+                sour,
+                sweet
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7019,21 +8147,15 @@
         tomato_puree,
         #{
             categories=>[
-
+                topping,
+                vegetable,
+                fruit,
+                sauce,
+                dip,
+                garnish
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        tonic,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -7041,10 +8163,15 @@
         tortellini,
         #{
             categories=>[
-
+                pasta,
+                carb,
+                starch,
+                meat,
+                vegetable,
+                fish
             ],
             cuisines=>[
-
+                italian
             ]
         }
     },
@@ -7052,10 +8179,12 @@
         tortilla,
         #{
             categories=>[
-
+                bread,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                south_american
             ]
         }
     },
@@ -7063,10 +8192,10 @@
         truffle,
         #{
             categories=>[
-
+                mushroom
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7074,10 +8203,11 @@
         truffle_oil,
         #{
             categories=>[
-
+                mushroom,
+                fat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7085,10 +8215,11 @@
         turmeric,
         #{
             categories=>[
-
+                spice,
+                aromatic
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7096,10 +8227,13 @@
         turnip,
         #{
             categories=>[
-
+                root,
+                root_veg,
+                vegetable,
+                starch
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7107,10 +8241,12 @@
         udon_noodles,
         #{
             categories=>[
-
+                noodle,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                japanese
             ]
         }
     },
@@ -7118,10 +8254,13 @@
         vacherin,
         #{
             categories=>[
-
+                cheese,
+                soft_cheese,
+                dairy,
+                cream
             ],
             cuisines=>[
-
+                french
             ]
         }
     },
@@ -7129,10 +8268,14 @@
         vanilla,
         #{
             categories=>[
-
+                herb,
+                sweet,
+                topping,
+                garnish,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7140,21 +8283,13 @@
         vanilla_extract,
         #{
             categories=>[
-
+                sweet,
+                topping,
+                garnish,
+                dessert
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        vanilla_pod,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -7162,10 +8297,10 @@
         vegetable_oil,
         #{
             categories=>[
-
+                fat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7173,10 +8308,10 @@
         vegetable_shortening,
         #{
             categories=>[
-
+                fat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7184,10 +8319,13 @@
         vegetable_stock,
         #{
             categories=>[
-
+                sauce,
+                topping,
+                stock,
+                dip
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7195,10 +8333,12 @@
         venison,
         #{
             categories=>[
-
+                meat,
+                game,
+                red_meat
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7206,10 +8346,14 @@
         vermicelli,
         #{
             categories=>[
-
+                noodle,
+                pasta,
+                carb,
+                starch
             ],
             cuisines=>[
-
+                italian,
+                chinese
             ]
         }
     },
@@ -7217,10 +8361,10 @@
         vinegar,
         #{
             categories=>[
-
+                vinegar
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7228,10 +8372,13 @@
         vine_leaf,
         #{
             categories=>[
-
+                leaf,
+                pickle,
+                preserve,
+                leafy_green
             ],
             cuisines=>[
-
+                middle_eastern
             ]
         }
     },
@@ -7239,10 +8386,14 @@
         walnut,
         #{
             categories=>[
-
+                nut,
+                sweet,
+                topping,
+                garnish,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7250,21 +8401,10 @@
         walnut_oil,
         #{
             categories=>[
-
+                fat
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        wasabi,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -7272,10 +8412,13 @@
         water_chestnut,
         #{
             categories=>[
-
+                nut,
+                topping,
+                dessert,
+                sweet
             ],
             cuisines=>[
-
+                chinese
             ]
         }
     },
@@ -7283,10 +8426,13 @@
         watercress,
         #{
             categories=>[
-
+                herb,
+                vegetable,
+                leafy_green,
+                salad
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7294,10 +8440,14 @@
         watermelon,
         #{
             categories=>[
-
+                tropical,
+                fruit,
+                juice,
+                sweet,
+                dessert
             ],
             cuisines=>[
-
+                asian
             ]
         }
     },
@@ -7305,10 +8455,14 @@
         waxy_potato,
         #{
             categories=>[
-
+                starch,
+                root,
+                root_veg,
+                vegetable,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7316,10 +8470,12 @@
         wensleydale,
         #{
             categories=>[
-
+                cheese,
+                hard_cheese,
+                dairy
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -7327,10 +8483,13 @@
         whelk,
         #{
             categories=>[
-
+                meat,
+                fish,
+                white_fish,
+                shellfish
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7338,10 +8497,13 @@
         whipped_cream,
         #{
             categories=>[
-
+                dairy,
+                cream,
+                sweet,
+                dessert
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7349,10 +8511,12 @@
         whisky,
         #{
             categories=>[
-
+                alcohol,
+                drink,
+                liquor
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7360,10 +8524,12 @@
         white_bread,
         #{
             categories=>[
-
+                bread,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7371,10 +8537,12 @@
         white_cabbage,
         #{
             categories=>[
-
+                vegetable,
+                salad,
+                leafy_green
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7382,21 +8550,17 @@
         white_chocolate,
         #{
             categories=>[
-
+                chocolate,
+                dairy,
+                milk,
+                cream,
+                sweet,
+                dessert,
+                topping,
+                garnish
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        whitecurrant,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -7404,65 +8568,11 @@
         white_pepper,
         #{
             categories=>[
-
+                spice,
+                aromatic
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        wholegrain_mustard,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
-            ]
-        }
-    },
-    {
-        wild_garlic,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
-            ]
-        }
-    },
-    {
-        wild_mushroom,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
-            ]
-        }
-    },
-    {
-        wild_rice,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
-            ]
-        }
-    },
-    {
-        wood_pigeon,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -7470,10 +8580,12 @@
         worcestershire_sauce,
         #{
             categories=>[
-
+                sauce,
+                vinegar,
+                dip
             ],
             cuisines=>[
-
+                british
             ]
         }
     },
@@ -7481,10 +8593,17 @@
         yam,
         #{
             categories=>[
-
+                root,
+                root_vegetable,
+                vegetable,
+                starch,
+                carb
             ],
             cuisines=>[
-
+                japanese,
+                north_african,
+                west_african,
+                south_african
             ]
         }
     },
@@ -7492,21 +8611,10 @@
         yeast,
         #{
             categories=>[
-
+                salty
             ],
             cuisines=>[
-
-            ]
-        }
-    },
-    {
-        yellow_lentil,
-        #{
-            categories=>[
-
-            ],
-            cuisines=>[
-
+                all
             ]
         }
     },
@@ -7514,10 +8622,17 @@
         yoghurt,
         #{
             categories=>[
-
+                cream,
+                preserve,
+                pickle,
+                milk,
+                thickener,
+                sweet,
+                dessert,
+                sour
             ],
             cuisines=>[
-
+                all
             ]
         }
     },
@@ -7525,10 +8640,12 @@
         yuzu,
         #{
             categories=>[
-
+                fruit,
+                citrus,
+                juice
             ],
             cuisines=>[
-
+                japanese
             ]
         }
     }
