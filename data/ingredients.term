@@ -7693,7 +7693,7 @@
             categories=>[
                 flour,
                 starch,
-                thickener,
+                thickener
             ],
             cuisines=>[
                 all
