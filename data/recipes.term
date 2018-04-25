@@ -1,0 +1,76 @@
+[
+    #{
+        name => "~eggs and ~dairy quiche with ~veg and ~meat",
+        ingredients => #{
+            eggs => {1, [egg]},
+            dairy => {1, [milk, cream, dairy]},
+            sauce => {2, [sauce, chilli]},
+            cheese => {1, [hard_cheese]},
+            veg => {2, [leafy_green]},
+            meat => {1, [meat, poultry]},
+            fat => {1, [fat, oil]}
+        },
+        steps => [
+            "Preheat oven to around 350 degrees.",
+            "Beat ~eggs and ~dairy in a large mixing bowl",
+            "Coat a pie pan with ~fat",
+            "Sprinkle ~meat and ~veg into pie pan",
+            "Pour ~eggs and ~dairy mixture into pie pan",
+            "Bake until top is browned and a knife inserted in the center comes out clean"
+        ]
+    },
+    #{
+        name => "~primary and ~carb casserole with ~secondary and ~topping",
+        ingredients => #{
+            primary => {1, [meat]},
+            secondary => {1, [leafy_green, mushroom]},
+            carb => {1, [carb]},
+            binder => {1, [binder, cheese]},
+            topping => {1, [cheese, sauce, topping]}
+        },
+        steps => [
+            "Preheat oven to around 300 - 350 degrees.",
+            "Combine ~primary, ~secondary and ~carb in a mixing bowl and mix until even.",
+            "Then, add your ~binder and incorporate it into the contents of your mixing bowl",
+            "Move your mixed ingredients into a pot and cook on the stove until cooked through.",
+            "Finally, move your mixed ingredients into a baking tray and top it with your ~topping.",
+            "Bake the contents of your baking tray for 20-30 minutes or until golden brown and enjoy."
+        ]
+    },
+    #{
+        name => "~meat and ~alcohol fusion stir-fry served with ~rice",
+        ingredients => #{
+            meat => {1, [meat]},
+            sauce => {1, [sauce]},
+            alcohol => {1, [alcohol, vinegar]},
+            oil => {2, [oil]},
+            veg => {4, [vegetable, leafy_green]},
+            spices => {3, [aromatic]},
+            rice => {1, [rice]}
+        },
+        steps => [
+            "Allocate some time for your ~rice to cook through",
+            "Combine your ~meat with soy sauce, oyster sauce, peppers and sesame oil to taste",
+            "Then, put your mixed contents into a wok or large frying pan alongside some ~oil, ~sauce and ~alcohol",
+            "Leave the contents of your wok or large frying pan to marinate for awhile",
+            "In another wok or large frying pan, combine some soy sauce, some more ~oil and ~alcohol and starch",
+            "Heat this wok or large frying pan over a high heat, adding your marinated ingredients",
+            "Let this cook through and when it does, add your ~veg and stir fry until slightly softened",
+            "Once this happens, add your ~spices and some more ~oil and fry until cooked",
+            "Serve immediately with your cooked ~rice"
+        ]
+    },
+    #{
+        name => "~primary smoothie with a ~secondary flair",
+        ingredients => #{
+            primary => {1, [fruit]},
+            secondary => {1, [sweet, fruit, sugar, dessert]},
+            liquid => {1, [juice, milk]}
+        },
+        steps => [
+            "Combine your ~primary, and ~liquid and bulk of choice (ice, peanut butter, blended veg or fruit) in a blender and blend",
+            "Pour your blended ingredients and ~secondary into a large cup or glass interleaved a layer at a time",
+            "Get some long utensil and lightly use it to mix your blended mixure and ~secondary together to produce a semi-mixed smoothie"
+        ]
+    }
+].
