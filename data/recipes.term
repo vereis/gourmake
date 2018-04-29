@@ -1,14 +1,14 @@
 [
     #{
-        name => "~eggs and ~dairy quiche with ~veg and ~meat",
+        name => "~eggs and ~dairy Quiche with ~veg and ~meat",
         ingredients => #{
-            eggs => {1, [egg]},
-            dairy => {1, [milk, cream, dairy]},
-            sauce => {2, [sauce, chilli]},
-            cheese => {1, [hard_cheese]},
-            veg => {2, [leafy_green]},
-            meat => {1, [meat, poultry]},
-            fat => {1, [fat, oil]}
+            eggs => {1, 1, [egg]},
+            dairy => {1, 1, [milk, cream, dairy]},
+            sauce => {1, 2, [sauce, chilli]},
+            cheese => {1, 2,  [hard_cheese]},
+            veg => {1, 2, [leafy_green]},
+            meat => {1, 1, [meat, poultry]},
+            fat => {1, 1, [fat, oil]}
         },
         steps => [
             "Preheat oven to around 350 degrees.",
@@ -20,13 +20,13 @@
         ]
     },
     #{
-        name => "~primary and ~carb casserole with ~secondary and ~topping",
+        name => "~primary and ~carb Casserole with ~secondary and ~topping",
         ingredients => #{
-            primary => {1, [meat]},
-            secondary => {1, [leafy_green, mushroom]},
-            carb => {1, [carb]},
-            binder => {1, [binder, cheese]},
-            topping => {1, [cheese, sauce, topping]}
+            primary => {1, 1, [meat]},
+            secondary => {1, 2, [leafy_green, mushroom]},
+            carb => {1, 1, [carb]},
+            binder => {1, 1, [binder, cheese]},
+            topping => {1, 2, [cheese, sauce, topping]}
         },
         steps => [
             "Preheat oven to around 300 - 350 degrees.",
@@ -38,15 +38,15 @@
         ]
     },
     #{
-        name => "~meat and ~alcohol fusion stir-fry served with ~rice",
+        name => "~meat and ~alcohol Stir-fry served with ~rice",
         ingredients => #{
-            meat => {1, [meat]},
-            sauce => {1, [sauce]},
-            alcohol => {1, [alcohol, vinegar]},
-            oil => {2, [oil]},
-            veg => {4, [vegetable, leafy_green]},
-            spices => {3, [aromatic]},
-            rice => {1, [rice]}
+            meat => {1, 1, [meat]},
+            sauce => {1, 1, [sauce]},
+            alcohol => {1, 1, [alcohol, vinegar]},
+            oil => {1, 2,  [oil]},
+            veg => {1, 4, [vegetable, leafy_green]},
+            spices => {2, 3, [aromatic]},
+            rice => {1, 1, [rice]}
         },
         steps => [
             "Allocate some time for your ~rice to cook through",
@@ -61,16 +61,56 @@
         ]
     },
     #{
-        name => "~primary smoothie with a ~secondary flair",
+        name => "~primary Smoothie with ~secondary",
         ingredients => #{
-            primary => {1, [fruit]},
-            secondary => {1, [sweet, fruit, sugar, dessert]},
-            liquid => {1, [juice, milk]}
+            primary => {1, 1, [fruit]},
+            secondary => {1, 2, [sweet, fruit, sugar, dessert]},
+            liquid => {1, 1, [juice, milk]}
         },
         steps => [
             "Combine your ~primary, and ~liquid and bulk of choice (ice, peanut butter, blended veg or fruit) in a blender and blend",
             "Pour your blended ingredients and ~secondary into a large cup or glass interleaved a layer at a time",
             "Get some long utensil and lightly use it to mix your blended mixure and ~secondary together to produce a semi-mixed smoothie"
+        ]
+    },
+    #{
+        name => "simple Pizza with ~primary and ~secondary",
+        ingredients => #{
+            primary => {1, 1, [meat]},
+            secondary => {1, 3, [aromatic, herb, spice, leafy_green]},
+            cheese => {1, 2, [cheese]},
+            oil => {1, 1, [fat]},
+            flour => {1, 1, [flour]},
+            aromatic => {1, 2, [aromatic]}
+        },
+        steps => [
+            "Mix 200g of ~flour, 1/2 a tsp salt, yeast and water thoroughly and leave to rise to form your dough",
+            "You could always also add a little ~oil to your dough for flavour as it rests",
+            "Meanwhile, make a sauce by heating some ~oil in a pan, adding ~aromatic and tinned tomatoes or passata",
+            "Reduce the sauce until the consistency thickens and season with salt, sugar and herbs to taste",
+            "Once the dough has risen, knock the air out and roll into a pizza base shape, top it with your sauce",
+            "Add your ~cheese, followed by your ~secondary and your ~primary before putting in the other until golden brown crust forms."
+            "Once cooked, feel free to add a splash of ~oil on top and serve."
+        ]
+    },
+    #{
+        name => "Fried ~rice with ~protein and ~other",
+        ingredients => #{
+            oil => {1, 1, [fat]},
+            aromatics => {1, 4, [aromatic]},
+            protein => {1, 1, [meat]},
+            spice => {1, 2, [spice]},
+            eggs => {1, 1, [egg]},
+            garnish => {1, 1, [citrus]},
+            rice => {1, 1, [rice]},
+            other => {1, 2, [vegetable]}
+        },
+        steps => [
+            "Heat your ~oil in a wok or frying pan and fry your ~aromatics until softened and aromatic",
+            "Add your ~other and cook that until soft, followed by your ~protein",
+            "At this stage, you can add your ~spice and your ~rice, stiring quickly before pushing your ~rice to one side",
+            "Add the ~eggs on the opposite side and scramble together with your ~rice",
+            "Cook until piping hot and just before finishing, squeeze some ~garnish juice on top for a sharp kick, season and serve"
         ]
     }
 ].

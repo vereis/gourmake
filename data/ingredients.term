@@ -3687,8 +3687,6 @@
         ginger_ale,
         #{
             categories=>[
-                spice,
-                aromatic,
                 alcohol,
                 drink,
                 liquor
@@ -5825,9 +5823,7 @@
             categories=>[
                 herb,
                 vegetable,
-                leafy_green,
-                fat,
-                drink
+                leafy_green
             ],
             cuisines=>[
                 malaysian
@@ -7164,7 +7160,6 @@
         #{
             categories=>[
                 drink,
-                aromatic,
                 dessert
             ],
             cuisines=>[

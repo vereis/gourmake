@@ -45,34 +45,27 @@
 
 main() ->
     {Data, Recipes} = bootstrap:bootstrap(),
-    parse_recipe(pick_recipe(Recipes), Data).
+    {RecipeName, RecipeIngredients, RecipeInstructions} = parse_recipe(pick_recipe(Recipes), Data),
+    pretty_print_list(RecipeName),
+    pretty_print_list(RecipeIngredients),
+    pretty_print_list(RecipeInstructions).
+
+pretty_print_list(L) ->
+    [io:format([Li | "~n"]) || Li <- L].
 
 parse_recipe(Recipe, Data) ->
     Ingredients = parse_recipe_ingredients(Recipe, Data),
     Steps = parse_recipe_steps(Recipe, Ingredients),
-    {RecipeName, RecipeLiterals} = parse_recipe_name(Recipe, Ingredients),
-
-    io:format(" # " ++ util:pick_random(?PRENOM) ++ RecipeName, RecipeLiterals),
-    io:format("   Ingredients:~n", []),
-    IoIngredients = maps:to_list(Ingredients),
-    lists:foreach(fun({_, Is}) ->
-        lists:foreach(fun(I) ->
-            io:format("     -  ~s~n", [util:pretty_print_atom(I)])
-        end, Is)
-    end, IoIngredients),
-
-    io:format("   Instructions:~n", []),
-    lists:foreach(fun(I) ->
-        {TemplateString, TemplateLiterals} = lists:nth(I, Steps),
-        io:format("     " ++ string:join([integer_to_list(I), TemplateString], ") "), TemplateLiterals)
-    end, lists:seq(1, length(Steps))).
+    
+    format_output(Recipe, Ingredients, Steps).
 
 parse_recipe_ingredients(Recipe, Data) ->
     {Ingredients, Categories, Cuisines} = Data,
     #{ingredients := I} = Recipe,
 
-    maps:map(fun(_, {Q, Category}) ->
-        RawData = [pick_from_category(util:pick_random(Category), Categories) || I <- lists:seq(1, Q)],
+    maps:map(fun(_, {MinQ, MaxQ, Category}) ->
+        Q = util:pick_random(lists:seq(MinQ, MaxQ)),
+        RawData = [pick_from_category(util:pick_random(Category), Categories) || _ <- lists:seq(1, Q)],
         lists:usort(RawData)
     end, I).
 
@@ -87,13 +80,49 @@ parse_recipe_steps(Recipe, Ingredients) ->
 interpolate_recipe_string(Str, Ingredients) ->
     {ok, Regex} = re:compile("\~([a-z]+)"),
     case re:run(Str, Regex, [global]) of
-        nomatch -> {Str ++ "~n", []};
+        nomatch -> {Str, []};
         {match, Matches} -> 
-            ProcessedStr = binary_to_list(iolist_to_binary([re:replace(Str, Regex, "~s", [global]), "~n"])),
+            ProcessedStr = binary_to_list(iolist_to_binary([re:replace(Str, Regex, "~s", [global])])),
             Flags = [list_to_existing_atom(string:slice(Str, M1, M2)) || [_, {M1, M2}] <- Matches],
-            ProcessedFlags = [string:join([util:pretty_print_atom(I)|| I <- maps:get(F, Ingredients)], ", ") || F <- Flags],
+            ProcessedFlags = [grammatical_concatenate(maps:get(F, Ingredients)) || F <- Flags],
             {ProcessedStr, ProcessedFlags}
     end.
+
+grammatical_concatenate([H]) ->
+    util:pretty_print_atom(H);
+grammatical_concatenate([H, T]) ->
+    string:join([util:pretty_print_atom(H), util:pretty_print_atom(T)], " and ");
+grammatical_concatenate([H | T]) ->
+    All = [util:pretty_print_atom(S) || S <- [H | T]],
+    Last = util:pretty_print_atom(lists:last(T)),
+    string:join([string:join(lists:droplast(All), ", "), Last], " and ").
+
+
+format_ingredients(Ingredients) ->
+    IngredientsList = maps:to_list(Ingredients),
+    IngredientStrings = lists:foldl(fun({_, Is}, Acc) ->
+        Acc ++ lists:map(fun(I) ->
+            ["- ", util:pretty_print_atom(I)]
+        end, Is)
+    end, [], IngredientsList),
+    ["## Ingredients:" | IngredientStrings].
+
+format_instructions(Instructions) ->
+    InstructionStrings = lists:map(fun(I) ->
+        {TemplateString, TemplateLiterals} = lists:nth(I, Instructions),
+        [integer_to_list(I), ") ", io_lib:format(TemplateString, TemplateLiterals)]
+    end, lists:seq(1, length(Instructions))),
+    ["## Instructions:" | InstructionStrings].
+
+format_recipe_name(Recipe, Ingredients) ->
+    {RecipeName, RecipeLiterals} = parse_recipe_name(Recipe, Ingredients),
+    [["# ", util:pick_random(?PRENOM), io_lib:format(RecipeName, RecipeLiterals)]].
+
+format_output(Recipe, Ingredients, Instructions) ->
+    RecipeName = format_recipe_name(Recipe, Ingredients),
+    IngredientStrs  = format_ingredients(Ingredients),
+    InstructionStrs = format_instructions(Instructions),
+    {RecipeName, IngredientStrs, InstructionStrs}.
 
 pick_recipe(Recipes) ->
     util:pick_random(Recipes).
