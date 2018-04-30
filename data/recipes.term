@@ -186,5 +186,122 @@
             "Meanwhile, cook the ~noodle in boiling water until softened.",
             "Combine the ~noodle and sauce and serve."
         ]
+    },
+    #{
+        name => "~meat and ~potato mash gratin",
+        ingredients => #{
+            potato => {1, 2, [root_veg]},
+            meat => {1, 1, [red_meat]},
+            garnish => {1, 1, [garnish]},
+            cheese => {1, 1, [cheese]},
+            oil => {1, 1, [fat]}
+        },
+        steps => [
+            "Preheat a grill to high heat",
+            "Wash around 800g ~potato and chop them into 3 - 5cm chunks.",
+            "Heat a pan of water and oil of your choice (perhaps ~oil?), add plenty of salt before finally adding your chopped ~potato",
+            "Cook your ~potato until softened.",
+            "While you're waiting for them to cook, season your ~meat and place it on another hot pan with some ~oil, until a nice sear develops",
+            "Remove your now cooked ~meat, tossing some ~garnish in the leftover ~meat juices to develop some flavour",
+            "Drain your ~potato now that they are softened, grate a hearty portion of ~cheese and mix",
+            "Spread this mixure, alongside your ~meat, into a pan and put into your grill until a golden crust develops",
+            "Feel free to top it with toppings of your choice, and don't forget to garnish it when done with your ~garnish",
+            "Rest for 2 - 5 minutes and serve piping hot"
+        ]
+    },
+    #{
+        name => "mix and match ~grain tabbouleh",
+        ingredients => #{
+            grain => {1, 2, [grain, seed, rice]},
+            herbs => {1, 4, [herb, leafy_green]},
+            fat => {1, 1, [fat]},
+            juice => {1, 1, [citrus, fruit]}
+        },
+        steps => [
+            "Rinse your ~grain(s) and cook in well salted water until tender.",
+            "Drain your ~grain(s) and set aside to cool",
+            "Trim and finely slice your ~herbs, adding halved tomatoes. Mix these into your ~grain(s)",
+            "Add plenty of ~fat and drizzle in some ~juice juice for a nice kick",
+            "Finally, season your ~grain(s) and ~herbs mix and serve"
+        ]
+    },
+    #{
+        name => "simple ~primary chilli with ~bean",
+        ingredients => #{
+            aromatics => {1, 3, [spice, aromatic]},
+            primary => {1, 1, [root_veg, red_meat]},
+            bean => {2, 4, [bean]},
+            oil => {1, 1, [oil]},
+            herb => {1, 2, [herb]},
+            citrus => {1, 1, [citrus]},
+            rice => {1, 1, [rice]},
+            cheese => {1, 1, [hard_cheese]}
+        },
+        steps => [
+            "Heat a large pan, pot or wok to high heat, adding plenty of ~oil",
+            "Fry your ~aromatics until aromatic and fragrant",
+            "Make sure you chop your ~primary into small cubes or mince it before adding to your frying ~aromatics to brown a little",
+            "Once nicely seared, transfer the contents of your pan, pot or wok to some container, keeping the cooking juices in your pan, pot or wok",
+            "Add plenty of chopped tomatoes, water and stock if you have any and season well",
+            "Into your tomato mixture, mix in some Cayenne Pepper, Paprika, Cumin and let it simmer",
+            "Mix in your fried ~aromatics, ~primary and ~bean",
+            "Cook until softened and reduced before serving on warm ~rice(s)",
+            "Feel free to drizzle some ~citrus and more ~oil on your ~rice(s) for added flavour",
+            "Optinally, top with plenty of ~cheese as well"
+        ]
+    },
+    #{
+        name => "Simple ~cheese omelette",
+        ingredients => #{
+            egg => {1, 1, [egg]},
+            cheese => {1, 2, [hard_cheese]},
+            optional => {1, 1, [garnish]}
+        },
+        steps => [
+            "Crack as many ~egg as you think you can eat into a mixing bowl seasoned well with some salt and black pepper",
+            "Beat your seasoned ~egg mixture until fully combined",
+            "Warm up a frying pan to a low heat",
+            "Grate plenty of ~cheese and set aside",
+            "Add half a tablespoon of oil into your hot pan, before carefully pouring your ~egg",
+            "Tilt the pan to spread your ~egg evenly before giving your ~egg mixture a slight stir",
+            "As the ~egg cooks but is not fully done, add your ~cheese spreading it as evenly as you can",
+            "Using a spatula, fold your omlette in half",
+            "Once golden brown, remove from pan and serve, optionally garnishing with some ~optional"
+        ]
+    },
+    #{
+        name => "spicy ~primary curry",
+        ingredients => #{
+            primary => {1, 1, [meat, root_veg]},
+            spices => {3, 6, [spice, aromatic]},
+            oil => {1, 1, [fat, oil]},
+            cream => {1, 1, [cream]},
+            starch => {1, 1, [rice, bread]}
+        },
+        steps => [
+            "In a large frying pan or wok, fry your ~spices until aromatic",
+            "Then, add plenty of chopped tomatoes and stock if you have any",
+            "Add in your ~primary, chopped into medium sized cubes and cook through",
+            "Add in some herbs such as Lime Leaf or Curry Leaf for more fragrance and let your curry simmer for a few hours",
+            "An hour before serving, add in your ~cream and stir in well, letting it cook into your curry",
+            "When done, serve on top of warm ~starch"
+        ]
+    },
+    #{
+        name => "quick and easy ~primary ~pasta",
+        ingredients => #{
+            pasta => {1, 1, [pasta, noodle]},
+            primary => {1, 2, [fish, shellfish, meat, vegetable, leafy_green, aromatic]},
+            herbs => {2, 4, [herb]},
+            aromatics => {1, 2, [aromatic]}
+        },
+        steps => [
+            "Pour water in a large pot and boil, with plenty of salt added and a tablespoon of Extra Virgin Olive Oil",
+            "Prepare your ~herbs and ~aromatics by slicing thinly, adding them to a warmed pan of Extra Virgin Olive Oil",
+            "Fry your ~herbs and ~aromatics slightly before adding Garlic, and if your ~primary requires it, sear your ~primary",
+            "Make a sauce by adding water, stock or tomatoes and cook through",
+            "Lastly, add your ~pasta to your boiling water and cook through before draining the water",
+            "Mix your ~primary and ~herbs mixture with your ~pasta and serve warm"
+        ]
     }
 ].
