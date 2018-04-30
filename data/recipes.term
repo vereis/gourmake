@@ -112,5 +112,79 @@
             "Add the ~eggs on the opposite side and scramble together with your ~rice",
             "Cook until piping hot and just before finishing, squeeze some ~garnish juice on top for a sharp kick, season and serve"
         ]
+    },
+    #{
+        name => "One-pan ~pasta with Nduja, ~root and ~topping",
+        ingredients => #{
+            pasta => {1, 1, [pasta]},
+            aromatic => {1, 1, [aromatic]},
+            root => {1, 1, [root_veg]},
+            topping => {1, 1, [garnish]},
+            oil => {1, 1, [oil]},
+            vinegar => {1, 1, [vinegar]},
+            cheese => {1, 1, [cheese]},
+            herb => {1, 1, [herb]}
+        },
+        steps => [
+            "Put all the ingredients (apart from the ~cheese and ~herb), alongside 200g of tomatoes and 2 tsp of tomato puree, in a wide saucepan and season well.",
+            "Pour over 800ml of boiling water and bring to a simmer. Use your utensil to push the ~pasta under the liquid as it softens.",
+            "Simmer, uncovered for 10-12 minutes. Toss the ~pasta through the liquid whilst it simmers until it has reduced and is clinging to it.",
+            "If the sauce is too thick or doesn't cover the ~pasta, add a splash of hot water.",
+            "Turn up the heat towards the end of cooking to drain off excess water. When finished, mix in the ~cheese and ~herb and serve with an optional drizzle of ~oil."
+        ]
+    },
+    #{
+        name => "Asian ~shellfish and ~grain salad",
+        ingredients => #{
+            grain => {1, 1, [grain]},
+            shellfish => {1, 1, [shellfish]},
+            fruit => {1, 1, [fruit]},
+            garnish => {1, 1, [garnish]},
+            leafygreen => {1, 2, [leafy_green]},
+            salad => {1, 2, [salad]},
+            oil => {1, 1, [oil]},
+            herb => {1, 1, [herb]}
+        },
+        steps => [
+            "Boil the ~grain in a small pan until tender.",
+            "Drain the ~grain well, tip into a bowl, and mix in a dressing of your choice.",
+            "Add the ~leafygreen, ~salad and ~fruit to the ~grain.", 
+            "Add the ~oil to some more dressing, and stir in the ~shellfish.",
+            "Spoon the ~shellfish mixture onto the ~grain mixture, and garnish with ~herb."
+        ]
+    },
+    #{
+        name => "Easy Italian ~bean salad",
+        ingredients => #{
+            bean => {2, 2, [bean]},
+            salad => {1, 1, [salad]},
+            aromatic => {1, 1, [aromatic]},
+            chilli => {1, 1, [chilli]},
+            oil => {1, 1, [oil]},
+            vinegar => {1, 1, [vinegar]},
+            herb => {1, 1, [herb]}
+        },
+        steps => [
+            "Finely chop the ~salad and mix in a bowl alongside the ~aromatic and ~chilli.",
+            "Mix the ~bean into the existing mixture.",
+            "Whisk together the ~oil and ~vinegar and season well.",
+            "Stir this and the ~herb into the salad."
+        ]
+    },
+    #{
+        name => "~primary ~noodle with ~cream sauce",
+        ingredients => #{
+            cream => {1, 1, [cream]},
+            spice => {1, 1, [spice]},
+            primary => {1, 1, [poultry, vegetable]},
+            noodle => {1, 1, [noodle]},
+            vegetable => {2, 2, [vegetable]}
+        },
+        steps => [
+            "Add stock and curry paste of your choice, ~cream, ~primary, ~spice, ~vegetable into a pan.",
+            "Cook until all ingredients are ready.",
+            "Meanwhile, cook the ~noodle in boiling water until softened.",
+            "Combine the ~noodle and sauce and serve."
+        ]
     }
 ].

@@ -1947,7 +1947,6 @@
         #{
             categories=>[
                 fat,
-                oil,
                 dip,
                 spice
             ],
@@ -7003,6 +7002,19 @@
         }
     },
     {
+        red_wine_vinegar,
+        #{
+            categories=>[
+                vinegar,
+                alcohol
+            ],
+            cuisines=>[
+                italian, 
+                french
+            ]
+        }
+    },
+    {
         rhubard,
         #{
             categories=>[
@@ -8143,7 +8155,6 @@
         #{
             categories=>[
                 topping,
-                vegetable,
                 fruit,
                 sauce,
                 dip,
@@ -8263,10 +8274,7 @@
         vanilla,
         #{
             categories=>[
-                herb,
                 sweet,
-                topping,
-                garnish,
                 dessert
             ],
             cuisines=>[
@@ -8279,8 +8287,6 @@
         #{
             categories=>[
                 sweet,
-                topping,
-                garnish,
                 dessert
             ],
             cuisines=>[
