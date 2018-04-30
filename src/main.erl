@@ -61,11 +61,11 @@ parse_recipe(Recipe, Data) ->
 
 parse_recipe_ingredients(Recipe, Data) ->
     {Ingredients, Categories, Cuisines} = Data,
-    #{ingredients := I} = Recipe,
+    #{ingredients := I, cuisines := C} = Recipe,
 
     maps:map(fun(_, {MinQ, MaxQ, Category}) ->
         Q = util:pick_random(lists:seq(MinQ, MaxQ)),
-        RawData = [pick_from_category(util:pick_random(Category), Categories) || _ <- lists:seq(1, Q)],
+        RawData = [pick_from_category(util:pick_random(Category), util:pick_random(C), Cuisines, Categories) || _ <- lists:seq(1, Q)],
         lists:usort(RawData)
     end, I).
 
@@ -127,9 +127,21 @@ format_output(Recipe, Ingredients, Instructions) ->
 pick_recipe(Recipes) ->
     util:pick_random(Recipes).
 
-pick_from_category(Category, Data) ->
+pick_from_category(Category, Cuisine, CuisineData, Data) ->
     #{Category := Ingredients} = Data,
-    util:pick_random(Ingredients).
+
+    % We typically want it to choose a ingredient of the correct cuisine, but not ALWAYS
+    CuisineIngredients = lists:filter(fun(Ingredient) ->
+        lists:member(Ingredient, Ingredients)
+    end, maps:get(Cuisine, CuisineData)),
+
+    Random = rand:uniform(100),
+    Threshold = 100 - rand:uniform(75),
+
+    case (Random > Threshold) and (length(CuisineIngredients) > 4) of
+        true -> util:pick_random(CuisineIngredients);
+        _    -> util:pick_random(Ingredients)
+    end.
 
 pick_from_cuisine(Cuisine, Data) ->
     #{Cuisine := Ingredients} = Data,
