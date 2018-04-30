@@ -176,7 +176,7 @@
         ingredients => #{
             cream => {1, 1, [cream]},
             spice => {1, 1, [spice]},
-            primary => {1, 1, [poultry, vegetable]},
+            primary => {1, 1, [poultry, fish, shellfish]},
             noodle => {1, 1, [noodle]},
             vegetable => {2, 2, [vegetable]}
         },
