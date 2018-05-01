@@ -3,11 +3,13 @@
         ackee,
         #{
             categories=>[
-                fruit
+                fruit,
+                tropical
             ],
             cuisines=>[
                 west_african,
-                jamaican
+                jamaican,
+                north_african
             ]
         }
     },
@@ -66,8 +68,7 @@
             categories=>[
                 beer,
                 alcohol,
-                drink,
-                fruit
+                drink
             ],
             cuisines=>[
                 european
@@ -95,7 +96,8 @@
         #{
             categories=>[
                 sprouts,
-                vegetable
+                vegetable,
+                salad
             ],
             cuisines=>[
                 chinese,
@@ -132,7 +134,9 @@
         almond,
         #{
             categories=>[
-                nut
+                nut,
+                topping,
+                dessert
             ],
             cuisines=>[
                 north_american,
@@ -175,7 +179,8 @@
             categories=>[
                 fish,
                 topping,
-                salty
+                salty,
+                preserve
             ],
             cuisines=>[
                 pizza,
@@ -189,7 +194,9 @@
             categories=>[
                 flower,
                 root,
-                topping
+                topping,
+                leafy_green,
+                salad
             ],
             cuisines=>[
                 greek,
@@ -220,7 +227,9 @@
             categories=>[
                 fruit,
                 flower,
-                liquor
+                liquor,
+                aromatic,
+                spice
             ],
             cuisines=>[
                 british,
@@ -229,7 +238,8 @@
                 dutch,
                 greek,
                 french,
-                european
+                european,
+                indian
             ]
         }
     },
@@ -237,7 +247,9 @@
         apple,
         #{
             categories=>[
-                fruit
+                fruit,
+                topping,
+                dessert
             ],
             cuisines=>[
                 all
@@ -276,7 +288,10 @@
         apricot,
         #{
             categories=>[
-                fruit
+                fruit,
+                topping,
+                dessert,
+                sweet
             ],
             cuisines=>[
                 all
@@ -288,7 +303,9 @@
         #{
             categories=>[
                 rice,
-                grain
+                grain,
+                starch,
+                carb
             ],
             cuisines=>[
                 north_american,
@@ -309,20 +326,6 @@
                 european,
                 british,
                 scottish
-            ]
-        }
-    },
-    {
-        argan_oil,
-        #{
-            categories=>[
-                fat,
-                oil
-            ],
-            cuisines=>[
-                north_american,
-                european,
-                middle_eastern
             ]
         }
     },
@@ -378,7 +381,9 @@
         asparagus,
         #{
             categories=>[
-                vegetable
+                vegetable,
+                root,
+                root_veg
             ],
             cuisines=>[
                 european,
@@ -391,7 +396,9 @@
         #{
             categories=>[
                 nightshade,
-                fruit
+                fruit,
+                root,
+                root_veg
             ],
             cuisines=>[
                 italian,
@@ -422,7 +429,8 @@
             categories=>[
                 bean,
                 sweetener,
-                dessert
+                dessert,
+                sweet
             ],
             cuisines=>[
                 japanese,
@@ -6627,6 +6635,8 @@
             categories=>[
                 starch,
                 bread,
+                sweet,
+                dessert,
                 carb
             ],
             cuisines=>[
@@ -7015,7 +7025,7 @@
         }
     },
     {
-        rhubard,
+        rhubarb,
         #{
             categories=>[
                 sour,
@@ -7071,7 +7081,11 @@
                 vinegar
             ],
             cuisines=>[
-                japanese
+                japanese,
+                chinese,
+                asian,
+                malaysian,
+                thai
             ]
         }
     },
@@ -7084,6 +7098,9 @@
                 liquor
             ],
             cuisines=>[
+                chinese,
+                asian,
+                malaysian,
                 japanese
             ]
         }

@@ -3,69 +3,36 @@
     main/0
 ]).
 
--define(PRENOM, [
-    "Dvorak's ",
-    "Colemak's ",
-    "Ada's ",
-    "Apache's ",
-    "Awk's ",
-    "Bon's ",
-    "Deb's ",
-    "Jen's ",
-    "Kerbe's ",
-    "Lisa's ",
-    "Linus' ",
-    "Mac's ",
-    "Pearl's ",
-    "Ping's ",
-    "Tux's ",
-    "Alan's ",
-    "Tim's ",
-    "Lee's ",
-    "Thompson's ",
-    "Knuth's ",
-    "Dennis' ",
-    "Ritchie's ",
-    "Gosling's ",
-    "Edsger's ",
-    "Kerninghan's ",
-    "Brian's ",
-    "Bjarne's ",
-    "Stroustrup's ",
-    "Backus' ",
-    "Hoare's ",
-    "Church's ",
-    "Steve's ",
-    "Naur's ",
-    "Carmack's ",
-    "Stallman's ",
-    "RMS' ",
-    "Munakata's "
-]).
+-define(MUTATIONPROB, 5).
 
 main() ->
-    {Data, Recipes} = bootstrap:bootstrap(),
+    {Data, Recipes, Names} = bootstrap:bootstrap(),
     {RecipeName, RecipeIngredients, RecipeInstructions} = parse_recipe(pick_recipe(Recipes), Data),
-    pretty_print_list(RecipeName),
-    pretty_print_list(RecipeIngredients),
-    pretty_print_list(RecipeInstructions).
-
-pretty_print_list(L) ->
-    [io:format([Li | "~n"]) || Li <- L].
+    util:pretty_print_list(RecipeName),
+    util:pretty_print_list(RecipeIngredients),
+    util:pretty_print_list(RecipeInstructions).
 
 parse_recipe(Recipe, Data) ->
-    Ingredients = parse_recipe_ingredients(Recipe, Data),
+    #{cuisines := AvailableCuisines} = Recipe,
+    ChosenCuisine = util:pick_random(AvailableCuisines),
+
+    Ingredients = parse_recipe_ingredients(Recipe, ChosenCuisine, Data),
     Steps = parse_recipe_steps(Recipe, Ingredients),
     
-    format_output(Recipe, Ingredients, Steps).
+    format_output(ChosenCuisine, Recipe, Ingredients, Steps).
 
-parse_recipe_ingredients(Recipe, Data) ->
-    {Ingredients, Categories, Cuisines} = Data,
-    #{ingredients := I, cuisines := C} = Recipe,
+parse_recipe_ingredients(Recipe, Cuisine, Data) ->
+    #{ingredients := I} = Recipe,
+    {_, Categories, Cuisines} = Data,
 
-    maps:map(fun(_, {MinQ, MaxQ, Category}) ->
+    maps:map(fun(_, {MinQ, MaxQ, Category, FilterCategories}) ->
         Q = util:pick_random(lists:seq(MinQ, MaxQ)),
-        RawData = [pick_from_category(util:pick_random(Category), util:pick_random(C), Cuisines, Categories) || _ <- lists:seq(1, Q)],
+        RawData = [pick_ingredient(util:pick_random(Category), 
+                                      Cuisine, 
+                                      Cuisines, 
+                                      Categories,
+                                      FilterCategories) 
+                   || _ <- lists:seq(1, Q)],
         lists:usort(RawData)
     end, I).
 
@@ -78,25 +45,15 @@ parse_recipe_steps(Recipe, Ingredients) ->
     [interpolate_recipe_string(Step, Ingredients) || Step <- S]. 
 
 interpolate_recipe_string(Str, Ingredients) ->
-    {ok, Regex} = re:compile("\~([a-z]+)"),
+    {ok, Regex} = re:compile("\~([a-z_-]+)"),
     case re:run(Str, Regex, [global]) of
         nomatch -> {Str, []};
         {match, Matches} -> 
             ProcessedStr = binary_to_list(iolist_to_binary([re:replace(Str, Regex, "~s", [global])])),
             Flags = [list_to_existing_atom(string:slice(Str, M1, M2)) || [_, {M1, M2}] <- Matches],
-            ProcessedFlags = [grammatical_concatenate(maps:get(F, Ingredients)) || F <- Flags],
+            ProcessedFlags = [util:grammatical_concatenate(maps:get(F, Ingredients)) || F <- Flags],
             {ProcessedStr, ProcessedFlags}
     end.
-
-grammatical_concatenate([H]) ->
-    util:pretty_print_atom(H);
-grammatical_concatenate([H, T]) ->
-    string:join([util:pretty_print_atom(H), util:pretty_print_atom(T)], " and ");
-grammatical_concatenate([H | T]) ->
-    All = [util:pretty_print_atom(S) || S <- [H | T]],
-    Last = util:pretty_print_atom(lists:last(T)),
-    string:join([string:join(lists:droplast(All), ", "), Last], " and ").
-
 
 format_ingredients(Ingredients) ->
     IngredientsList = maps:to_list(Ingredients),
@@ -114,12 +71,17 @@ format_instructions(Instructions) ->
     end, lists:seq(1, length(Instructions))),
     ["## Instructions:" | InstructionStrings].
 
-format_recipe_name(Recipe, Ingredients) ->
+format_recipe_name(Cuisine, Recipe, Ingredients) ->
     {RecipeName, RecipeLiterals} = parse_recipe_name(Recipe, Ingredients),
-    [["# ", util:pick_random(?PRENOM), io_lib:format(RecipeName, RecipeLiterals)]].
+    CuisineString = case Cuisine of
+        all -> "";
+        _   -> [string:lowercase(util:pretty_print_atom(Cuisine)) | ["-inspired "]]
+    end,
 
-format_output(Recipe, Ingredients, Instructions) ->
-    RecipeName = format_recipe_name(Recipe, Ingredients),
+    [["# ", CuisineString, io_lib:format(RecipeName, RecipeLiterals)]].
+
+format_output(Cuisine, Recipe, Ingredients, Instructions) ->
+    RecipeName = format_recipe_name(Cuisine, Recipe, Ingredients),
     IngredientStrs  = format_ingredients(Ingredients),
     InstructionStrs = format_instructions(Instructions),
     {RecipeName, IngredientStrs, InstructionStrs}.
@@ -127,22 +89,26 @@ format_output(Recipe, Ingredients, Instructions) ->
 pick_recipe(Recipes) ->
     util:pick_random(Recipes).
 
-pick_from_category(Category, Cuisine, CuisineData, Data) ->
+pick_ingredient(Category, Cuisine, CuisineData, Data, FilterCategories) ->
     #{Category := Ingredients} = Data,
 
     % We typically want it to choose a ingredient of the correct cuisine, but not ALWAYS
     CuisineIngredients = lists:filter(fun(Ingredient) ->
         lists:member(Ingredient, Ingredients)
-    end, maps:get(Cuisine, CuisineData)),
+    end, lists:usort([maps:get(all, CuisineData) | maps:get(Cuisine, CuisineData)])),
+  
+    % We want to filter ingredients which match Category but also match a FilteredCategory
+    FilteredIngredients = lists:filter(fun(Ingredient) ->
+        not lists:member(Ingredient, [maps:get(F, Data) || F <- FilterCategories])
+    end, Ingredients),
+    FilteredCuisineIngredients = lists:filter(fun(Ingredient) ->
+        not lists:member(Ingredient, [maps:get(F, Data) || F <- FilterCategories])
+    end, CuisineIngredients),
 
     Random = rand:uniform(100),
-    Threshold = 100 - rand:uniform(75),
+    Threshold = rand:uniform(?MUTATIONPROB),
 
-    case (Random > Threshold) and (length(CuisineIngredients) > 4) of
-        true -> util:pick_random(CuisineIngredients);
-        _    -> util:pick_random(Ingredients)
+    case (Random > Threshold) and (length(FilteredCuisineIngredients) >= 3) of
+        true -> util:pick_random(FilteredCuisineIngredients);
+        _    -> util:pick_random(FilteredIngredients)
     end.
-
-pick_from_cuisine(Cuisine, Data) ->
-    #{Cuisine := Ingredients} = Data,
-    util:pick_random(Ingredients).

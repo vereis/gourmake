@@ -6,8 +6,9 @@
 bootstrap() ->
     Data = load_data(<<"../data/ingredients.term">>),
     Recipes = load_data(<<"../data/recipes.term">>),
-    
-    {parse_ingredients(Data), Recipes}.
+    Names = load_data(<<"../data/names.term">>),
+
+    {parse_ingredients(Data), Recipes, Names}.
 
 load_data(Path) ->
     {ok, [Data]} = file:consult(Path),
