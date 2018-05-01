@@ -9,7 +9,7 @@
 
 main() ->
     {Data, Recipes, Names} = bootstrap:bootstrap(),
-    {RecipeName, RecipeIngredients, RecipeInstructions} = parse_recipe(pick_recipe(Recipes), Data),
+    {RecipeName, RecipeIngredients, RecipeInstructions} = parse_recipe(recipe_server:select(), Data),
     util:pretty_print_list(RecipeName),
     util:pretty_print_list(RecipeIngredients),
     util:pretty_print_list(RecipeInstructions).

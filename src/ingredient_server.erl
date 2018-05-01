@@ -32,11 +32,11 @@ stop_link() ->
 populate(Ingredients) ->
     gen_server:call(?MODULE, {populate, Ingredients}).
 
-select(CategoryWhitelist, CategoryBlacklist, CuisineWhitelist) ->
+select(Category, Cuisine, CategoryBlacklist) ->
     gen_server:call(?MODULE, {select,
-                             {CategoryWhitelist,
-                              CategoryBlacklist,
-                              CuisineWhitelist}}).
+                             {Category,
+                              Cuisine,
+                              CategoryBlacklist}}).
 
 get(categories) -> 
     gen_server:call(?MODULE, {get, categories});
@@ -136,4 +136,4 @@ process_data(IngredientData) ->
 
         % Return new accumulator
         {UIngredients, UCategories, UCuisines}
-    end, {#{}, #{}, #{}}, IngredientData).
+end, {#{}, #{}, #{}}, IngredientData).
