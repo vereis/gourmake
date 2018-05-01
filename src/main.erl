@@ -1,8 +1,10 @@
 -module(main).
 -export([
-    main/0
+    main/0,
+    select_ingredient/3
 ]).
 
+-define(USE_CUISINE_WHITELIST_PROB, 5).
 -define(MUTATIONPROB, 5).
 
 main() ->
@@ -27,11 +29,7 @@ parse_recipe_ingredients(Recipe, Cuisine, Data) ->
 
     maps:map(fun(_, {MinQ, MaxQ, Category, FilterCategories}) ->
         Q = util:pick_random(lists:seq(MinQ, MaxQ)),
-        RawData = [pick_ingredient(util:pick_random(Category), 
-                                      Cuisine, 
-                                      Cuisines, 
-                                      Categories,
-                                      FilterCategories) 
+        RawData = [select_ingredient(util:pick_random(Category), Cuisine, FilterCategories) 
                    || _ <- lists:seq(1, Q)],
         lists:usort(RawData)
     end, I).
@@ -89,26 +87,24 @@ format_output(Cuisine, Recipe, Ingredients, Instructions) ->
 pick_recipe(Recipes) ->
     util:pick_random(Recipes).
 
-pick_ingredient(Category, Cuisine, CuisineData, Data, FilterCategories) ->
-    #{Category := Ingredients} = Data,
+select_ingredient(Category, Cuisine, CategoryBlacklist) ->
+    Ingredients = ingredient_server:get(categories, Category),
+    IngredientBlacklist  = lists:usort(lists:flatten([ingredient_server:get(categories, C) || 
+                                                      C <- CategoryBlacklist])),
+    
+    ProcessedIngredients = [I || I <- Ingredients, not lists:member(I, IngredientBlacklist)],
+    
 
-    % We typically want it to choose a ingredient of the correct cuisine, but not ALWAYS
-    CuisineIngredients = lists:filter(fun(Ingredient) ->
-        lists:member(Ingredient, Ingredients)
-    end, lists:usort([maps:get(all, CuisineData) | maps:get(Cuisine, CuisineData)])),
-  
-    % We want to filter ingredients which match Category but also match a FilteredCategory
-    FilteredIngredients = lists:filter(fun(Ingredient) ->
-        not lists:member(Ingredient, [maps:get(F, Data) || F <- FilterCategories])
-    end, Ingredients),
-    FilteredCuisineIngredients = lists:filter(fun(Ingredient) ->
-        not lists:member(Ingredient, [maps:get(F, Data) || F <- FilterCategories])
-    end, CuisineIngredients),
-
-    Random = rand:uniform(100),
-    Threshold = rand:uniform(?MUTATIONPROB),
-
-    case (Random > Threshold) and (length(FilteredCuisineIngredients) >= 3) of
-        true -> util:pick_random(FilteredCuisineIngredients);
-        _    -> util:pick_random(FilteredIngredients)
+    % We only want to /probabalistically/ apply the cuisine whitelist
+    AvailableIngredients = case rand:uniform(100) > ?USE_CUISINE_WHITELIST_PROB of
+        true -> CuisineIngredients = lists:usort(ingredient_server:get(cuisines, Cuisine) ++ 
+                                                 ingredient_server:get(cuisines, all)),
+                [I || I <- ProcessedIngredients, lists:member(I, CuisineIngredients)];
+        _    -> ProcessedIngredients
+    end,
+   
+    % We also want to make sure AvailableIngredients has at least one element in it
+    case length(AvailableIngredients) > 0 of
+        true -> util:pick_random(AvailableIngredients);
+        _    -> util:pick_random(ProcessedIngredients)
     end.

@@ -4,6 +4,7 @@
 ]).
 
 bootstrap() ->
+    ingredient_server:start_link(),
     Data = load_data(<<"../data/ingredients.term">>),
     Recipes = load_data(<<"../data/recipes.term">>),
     Names = load_data(<<"../data/names.term">>),
