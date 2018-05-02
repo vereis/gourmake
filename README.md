@@ -22,6 +22,50 @@ main:main().
 
 Which will return CLI-output of a recipe in Markdown. Eventually Gourmake will output recipes into files.
 
+## Example output
+### Stroustrup's French inspired Lamb Neck and Beetroot mash gratin
+#### Ingredients:
+- Cottage Cheese
+- Walnut
+- Lamb Neck
+- Rapeseed Oil
+- Beetroot
+#### Instructions:
+1) Preheat a grill to high heat
+2) Wash around 800g Beetroot and chop them into 3 - 5cm chunks.
+3) Heat a pan of water and oil of your choice (perhaps Rapeseed Oil?), add plenty of salt before finally adding your chopped Beetroot
+4) Cook your Beetroot until softened.
+5) While you're waiting for them to cook, season your Lamb Neck and place it on another hot pan with some Rapeseed Oil, until a nice sear develops
+6) Remove your now cooked Lamb Neck, tossing some Walnut in the leftover Lamb Neck juices to develop some flavour
+7) Drain your Beetroot now that they are softened, grate a hearty portion of Cottage Cheese and mix
+8) Spread this mixure, alongside your Lamb Neck, into a pan and put into your grill until a golden crust develops
+9) Feel free to top it with toppings of your choice, and don't forget to garnish it when done with your Walnut
+10) Rest for 2 - 5 minutes and serve piping hot
+
+### Brian's South American inspired simple Lamb Shouler chilli with Black Beans, Kidney Bean and Pinto Bean
+#### Ingredients:
+- Turmeric
+- Black Beans
+- Kidney Bean
+- Pinto Bean
+- Smoked Cheese
+- Manderin
+- Oregano
+- Chilli Oil
+- Lamb Shouler
+- Brown Rice
+#### Instructions:
+1) Heat a large pan, pot or wok to high heat, adding plenty of Chilli Oil
+2) Fry your Turmeric until aromatic and fragrant
+3) Make sure you chop your Lamb Shouler into small cubes or mince it before adding to your frying Turmeric to brown a little
+4) Once nicely seared, transfer the contents of your pan, pot or wok to some container, keeping the cooking juices in your pan, pot or wok 
+5) Add plenty of chopped tomatoes, water and stock if you have any and season well
+6) Into your tomato mixture, mix in some Cayenne Pepper, Paprika, Cumin and let it simmer
+7) Mix in your fried Turmeric, Lamb Shouler and Black Beans, Kidney Bean and Pinto Bean
+8) Cook until softened and reduced before serving on warm Brown Rice(s)
+9) Feel free to drizzle some Manderin and more Chilli Oil on your Brown Rice(s) for added flavour
+10) Optinally, top with plenty of Smoked Cheese as well
+
 ## Architecture
 Gourmake's main business logic is decentralised across three major processes: 
 - The Ingredient Server which acts as a database containing all of the ingredients currently loaded into Gourmake, as well as information about what ingredients are used in certain cuisines and categories.
