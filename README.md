@@ -108,7 +108,7 @@ Recipes are defined in the following schema:
 ### Ingredients
 Ingredients are defined in the following schema:
 ```erlang
--type NAME()     :: atom(),
+-type NAME()     :: atom().
 -type CATEGORY() :: atom().
 -type CUISINE()  :: atom().
 [
