@@ -42,7 +42,7 @@ Which will return CLI-output of a recipe in Markdown. Eventually Gourmake will o
 9) Feel free to top it with toppings of your choice, and don't forget to garnish it when done with your Walnut
 10) Rest for 2 - 5 minutes and serve piping hot
 
-### Brian's South American inspired simple Lamb Shouler chilli with Black Beans, Kidney Bean and Pinto Bean
+### Brian's South American inspired simple Lamb Shoulder chilli with Black Beans, Kidney Bean and Pinto Bean
 #### Ingredients:
 - Turmeric
 - Black Beans
