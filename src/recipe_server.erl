@@ -19,6 +19,24 @@
 
 -define(USE_CUISINE_WHITELIST_PROB, 5).
 
+
+%%% Typespecs
+-type recipe() :: #{name => string(),
+                    cuisines => [ingredient_server:category()],
+                    ingredients => #{atom() => {non_neg_integer(), 
+                                                non_neg_integer(), 
+                                                [ingredient_server:category()], 
+                                                [ingredient_server:cuisine()]
+                                   }},
+                    steps => [string()]}.
+
+-type recipe_name() :: iodata().
+
+-type recipe_ingredients_str() :: iodata().
+
+-type recipe_instructions_str() :: iodata().
+
+
 %%% Entrypoints
 start_link() ->
     gen_server:start_link({local, ?MODULE}, ?MODULE, [], []).
@@ -67,6 +85,7 @@ code_change(_OldVersion, State, _Extra) ->
 %%% Private functions
 
 %% Probabalistically generates a random recipe based on an existing recipe template
+-spec generate_recipe(recipe()) -> {recipe_name(), {recipe_ingredients_str(), recipe_instructions_str()}}.
 generate_recipe(Recipe) ->
     Cuisine = util:pick_random(maps:get(cuisines, Recipe)),
     Ingredients = maps:map(fun(_, {Min, Max, Categories, CategoryBlacklist}) ->
@@ -84,6 +103,7 @@ generate_recipe(Recipe) ->
     {name_recipe(Recipe, Cuisine, Ingredients), RecipeContents}.
 
 %% Names a recipe based on the recipe template, cuisine and ingredients
+-spec name_recipe(recipe(), ingredient_server:cuisine(), #{atom() => [atom()]}) -> [recipe_name()].
 name_recipe(Recipe, Cuisine, Ingredients) ->
     {RecipeName, RecipeLiterals} = interpolate_recipe_string(maps:get(name, Recipe), Ingredients),
     CuisinePrefix = case Cuisine of
@@ -94,6 +114,9 @@ name_recipe(Recipe, Cuisine, Ingredients) ->
     [["# ", NamePrefix, CuisinePrefix, io_lib:format(RecipeName, RecipeLiterals)]].
 
 %% Selects ingredients from the ingredient server of a certain category/cuisine
+-spec select_ingredient(ingredient_server:category(), 
+                        ingredient_server:cuisine(), 
+                        [ingredient_server:category()]) -> atom(). 
 select_ingredient(Category, Cuisine, CategoryBlacklist) ->
     Ingredients = ingredient_server:get(categories, Category),
     IngredientBlacklist  = lists:usort(lists:flatten([ingredient_server:get(categories, C) || 
@@ -117,6 +140,7 @@ select_ingredient(Category, Cuisine, CategoryBlacklist) ->
     end.
 
 %% Takes a recipe instruction and interpolates values in place of placeholders in the instruction
+-spec interpolate_recipe_string(string(), #{atom() => [atom()]}) -> {string(), [any()]}.
 interpolate_recipe_string(Instr, Ingredients) ->
     {ok, Regex} = re:compile("\~([a-z_-]+)"),
     case re:run(Instr, Regex, [global]) of
@@ -129,6 +153,7 @@ interpolate_recipe_string(Instr, Ingredients) ->
     end.
 
 %% Pretty printing functions
+-spec pretty_print_ingredients(#{atom() => atom()}) -> recipe_ingredients_str().
 pretty_print_ingredients(Ingredients) ->
     IList  = maps:to_list(Ingredients),
     Output = lists:foldl(fun({_, Is}, Acc) ->
@@ -136,6 +161,7 @@ pretty_print_ingredients(Ingredients) ->
     end, [], IList),
     ["## Ingredients:" | Output].
 
+-spec pretty_print_instructions([string()]) -> recipe_instructions_str().
 pretty_print_instructions(Instructions) ->
     Output = lists:map(fun(I) ->
         {TemplateString, TemplateLiterals} = lists:nth(I, Instructions),

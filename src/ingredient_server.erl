@@ -21,23 +21,58 @@
 
 -compile({no_auto_import, [get/1]}).
 
+%%% Typespecs
+-type ingredient() :: {atom(), ingredient_data()}.
+
+-type ingredient_data() :: #{categories := [category()],
+                             cuisines   := [cuisine()]}.
+
+-type category() :: atom().
+
+-type cuisine() :: atom().
+
+-type ingredients() :: #{atom() => {string(), [category()], [cuisine()]}}.
+
+-type cuisines() :: #{cuisine() => [atom()]}.
+
+-type categories() :: #{category() => [atom()]}.
+
+-type startlink_ret() :: ignore
+                       | {error, _}
+                       | {ok, pid()}.
+
+-export_type([
+    ingredient/0,
+    category/0,
+    cuisine/0,
+    ingredients/0,
+    cuisines/0,
+    categories/0
+]).
 
 %%% Entrypoints
+-spec start_link() -> startlink_ret().
 start_link() ->
     gen_server:start_link({local, ?MODULE}, ?MODULE, [], []).
 
+-spec stop_link() -> any().
 stop_link() ->
     gen_server:call(?MODULE, stop).
 
+-spec populate(_) -> any().
 populate(Ingredients) ->
     gen_server:call(?MODULE, {populate, Ingredients}).
 
+-spec select(category() , cuisine(), [category()]) -> atom().
 select(Category, Cuisine, CategoryBlacklist) ->
     gen_server:call(?MODULE, {select,
                              {Category,
                               Cuisine,
                               CategoryBlacklist}}).
 
+-spec get(categories)  -> categories();
+         (cuisines)    -> cuisines();
+         (ingredients) -> ingredients().
 get(categories) -> 
     gen_server:call(?MODULE, {get, categories});
 get(cuisines) ->
@@ -45,6 +80,10 @@ get(cuisines) ->
 get(ingredients) ->
     gen_server:call(?MODULE, {get, ingredients}).
 
+-spec get(categories, category()) -> [atom()];
+         (cuisines, cuisine()) -> [atom()];
+         (ingredients, atom()) -> {string(), [category()], [cuisine()]}
+                                | {err, bad_ingredient, atom()}.
 get(categories, Category) -> 
     gen_server:call(?MODULE, {get, category, Category});
 get(cuisines, Cuisine) ->
@@ -93,20 +132,25 @@ handle_call(stop, _From, DB) ->
     {stop, normal, shutdown_ok, DB}.
 
 %%% Gen_server boilerplate
+-spec init([]) -> {ok, {ingredients(), categories(), cuisines()}}.
 init([]) ->
     {ok, [Raw]} = file:consult(<<"../data/ingredients.term">>),
     DB = process_data(Raw),
     {ok, DB}.
 
+-spec handle_cast(_, _) -> {noreply, _}.
 handle_cast(_Msg, State) ->
     {noreply, State}.
 
+-spec handle_info(_, _) -> {noreply, _}.
 handle_info(_Msg, State) ->
     {noreply, State}.
 
+-spec terminate(_, _) -> ok.
 terminate(_Reason, _State) ->
     ok.
 
+-spec code_change(_, _, _) -> {ok, _}.
 code_change(_OldVersion, State, _Extra) ->
     {ok, State}.
 
@@ -116,6 +160,7 @@ code_change(_OldVersion, State, _Extra) ->
 %% Fold over ingredient data and build three maps out of it allowing quick access
 %% to ingredients themselves, categories containing ingredients and cuisines containing
 %% ingredients
+-spec process_data([ingredient()]) -> {ingredients(), categories(), cuisines()}.
 process_data(IngredientData) ->
     lists:foldl(fun({I, Props}, {Ingredients, Categories, Cuisines}) ->
         % Build updated Ingredients
