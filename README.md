@@ -13,6 +13,7 @@ erl
 
 Then, in the Erlang shell
 ```erlang
+c(gourmake_supervisor).
 c(ingredient_server).
 c(recipe_server).
 c(name_server).
