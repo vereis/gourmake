@@ -40,13 +40,14 @@
     This paper describes the development, operation, conclusion and my reflection on a computational
     creativity system which invents recipes, henceforth referred to as 'Gourmake'.
 
-    At the time of writing, the Gourmake system is arguably successful in achieving its goal of being
-    able to produce human-like recipes drawing only from the encoding of ingredient information and
-    a learning set, much like the PIERRE system described later.
+    Gourmake is an attempt to declaratively generate creative artefacts. Domain knowledge is simply
+    encoded and presented to the system which then probabalistically pieces them together in an 
+    appropriate fashion.
 
-    Gourmake is also an attempt at declaratively generating creative artefacts, and despite several
-    failings in the implementation due to misjudgments and time constraints, Gourmake is currently
-    able to generate what appear to be rather novel, inventive and legitimate recipes.
+    At the time of writing, the Gourmake system is arguably a successful one; having achieved its goal
+    of being able to produce human-like output. Despite several failings in the implementation due to misjudgments 
+    and time constraints, Gourmake is currently able to generate what appear to be rather novel, 
+    inventive and legitimate recipes.
 \end{abstract}
 
 \section{Introduction}
@@ -60,19 +61,69 @@
     by cross-referencing categorisations of different ingredients and finding suitable ones to use; 
     which whilst simple, is very extensible and produces surprisingly original and 'thoughtful' results.
 
+    The templatised recipes which drive the Gourmake system are heavily declarative, and Gourmake
+    represents a declarative approach to generative artefacts.
+
     This paper goes on to describe the background research which challenged original ideas about how Gourmake
     ought to be designed, as well as key implementation details which help Gourmake successfully achieve
     its primary goals. This paper also discusses the limitations of Gourmake, how to improve Gourmake and
     the future of Gourmake.
 
 \section{Background}
-    Gourmake functions in a way inspired by the PIERRE system[0], creating recipes in a layered
+    There is much discussion as to what the definition of 'Computational Creativity' really is. This definition,
+    of course, is one which must be tackled as it ultimately informs the direction of this project, its goals and
+    its outcome. 
+
+    Wiggins, for example, describes 'Computational Creativity' as "behaviour exhibited by natural and artificial
+    systems, which would be deemed creative if exhibited by humans"[Wiggins, G. 2006. A preliminary framework for description,
+    analysis and comparison of creative systems]. In line with this, and other thoughts such
+    as from [Cognition as part of computational creativity], "humans are the only arbiters of creativity", the ultimate goal of the Gourmake system is to
+    create recipes which can be deemed human-like and otherwise indistinguishable from any average recipe.
+
+    Within the field of Computational Creativity, there have been many such systems in the same domain. 
+    All of these systems do ultimately share some similar ground and similar approaches which help lay the
+    foundation for ideas further developed and used in Gourmake.
+
+    Many such systems used as research to inform the direction of Gourmake utilise essentially at their core
+    probablistic database searches iteratively through different methods, building up lists of ingredients. Of such
+    systems, the most common elements shared between them were databases of many recipes and many ingredients. [Cognitive Cooking]
+    [Cognition as part of computational creativity]
+
+    Gourmake functions in a way inspired by the PIERRE system[Soup over bean of pure joy], creating recipes in a layered
     abstracted approach and as a result can create novel, interesting but more importantly also
     rather edible artefacts. 
 
-    At a high level, Gourmake, like the PIERRE system[0] creates dishes from an inspiring set of recipes,
+    At a high level, Gourmake, like the PIERRE system[Soup over bean of pure joy] creates dishes from an inspiring set of recipes,
     as well as many layers of abstraction for ingredients which are to be used in these recipes. We will
-    explore these abstractions and ideas underlying Gourmake's generative process futher in the paper.
+    explore these abstractions and ideas underlying Gourmake's generative process futher in the paper. One of the
+    goals of this project was to try and use a similar system to PIERRE[Soup over bean of pure joy] whilst not neccessarily being
+    limited to the scope of "soups, stews and chillis".
+
+    Starting this project, during planning, Gourmake was meant to be an evolutionary styled algorithm with
+    a very similar fitness function that that described in the PIERRE[Soup over bean of pure joy] system whereby a criterion for
+    evaluating a recipe's success was its likeness in terms of the amounts of ingredients within specific
+    categories to those of real recipes.
+
+    Retrospectively, whilst Gourmake doesn't at the time of writing contain any evolutionary behaviour,
+    the main limitation holding Gourmake back is the lack of a large normalised recipe set to both learn
+    from and be compared to.
+
+    The idea of building recipes by abstracting the core components of said recipes into 'categories' is interesting and evidently
+    workable. Similar approaches are use by [Cognitive Cooking], [Cognition as a part of computational creativity] and [New developments
+    in culinary computational creativity], although the complexity of a 'categorisation' process is oft-times fairly complex. [New developments]'s
+    computational model classifies ingredients into 'categories' via 'Odor Similarity' and other such means, which for Gourmake, isn't
+    something to be feasibly implemented due to the fact that Gourmake's databases and learning set are hand generated.
+
+    The ingredient database available to similar systems also oft-times encodes additional information as well such as "Cultural Context" of 
+    "chemical analyses of ingredients" as well, such as in [Cognition as part of computational creativity]. Again, because of limitations
+    in the resources afforded to the Gourmake system, Gourmake relies on the quality of the human-encoded knowledge as part of its
+    'Inspiring Set' of recipe templates to produce high-quality output.
+
+    Other means to arguably increases the apparent originality or creativity of a system are implemented by [New Developments in Culinary Computational Creativity]'s
+    system which can consider autonomously substituting ingredients for one another (in their case, from a given meat based product to
+    a vegetable). Having been inspired by this, the creativity of Gourmake arises from partially from the sheer unpredicatability of
+    Gourmake's output due to probabalistic noise. Gourmake actively makes decisions to differ from the learning set, which at times produces
+    surprisingly "creative" output.
 
 \section{Methodoly and Design}
 
@@ -83,18 +134,15 @@
     More agents which provide certain functionality can easily be added and plugged into the creative process
     if needed.
 
+    Gourmake is written in Erlang and naturally utilises Erlang's underlying Actor Model message passing mechanisms to communicate between
+    individual agents. This also allows us several benefits such as easy scalability and concurrency support
+    making Gourmake ideal for a web-app or web-frontend allowing people to easily request new recipes on the fly.
+
     Gourmake is at a high level, composed primarily of two agents, one agent specialises in parsing our
     recipe database and finding correlations and categorisations between ingredients allowing us to query
     for any number of random ingredients given arbitary constraints. The other agent specialises in
     understanding the recipe database fed into Gourmake, and essentially coordinates different agents together
     to be able to produce output.
-
-    Because Gourmake deals in multiple agents which should be seperated from eachother, Gourmake is written
-    in Erlang and utilises Erlang's underlying Actor Model message passing mechanisms to communicate between
-    individual agents. This also allows us several benefits such as easy scalability and concurrency support
-    making Gourmake ideal for a web-app or web-frontend allowing people to easily request new recipes on the fly.
-    On a live system, Gourmake's agents run indefinitely in the background, but Erlang's REPL allows easily
-    debuggability and testing of the system too which is another reason why this technology was chosen.
 
 \subsubsection{Ingredient Database Agent}
     The Ingredient Database Agent is, as stated, responsible for handling, choosing and understanding individual
@@ -196,8 +244,9 @@
     is finding a means of self-evaluating.
 
     A proposed fitness function was to compare the similarity of chosen ingredients to those in other recipes, or to have
-    real world example recipes from which recipes in the learning set are based off. The issue with this and quite literally
-    the only reason this hasn't been done is because the learning set is currently so small.
+    real world example recipes from which recipes in the learning set are based off, much like in [Cognition as a part of
+    computational creativity]. The issue with this and quite literally the only reason this hasn't been done is because 
+    the learning set is currently so small.
 
     Once this is implemented, we can gradually evolve more realistic looking recipes over time which would only increase
     the quality of Gourmake's output.
@@ -212,7 +261,7 @@
     Despite the fact that many planned features were not implemented due to time constraints, Gourmake still arguably produces
     human-like artefacts which at times can appear to be quite creative and novel. Some raw examples of Gourmake's output are
     below \textit{(more examples can be found on Gourmake's GitHub repo at \textbf{https://github.com/vereis/gourmake})}:
-
+    \\
     \begin{figure}[H]
         \begin{verbatim}
     # Gosling's Asian inspired Cod and New Potato Casserole with Radicchio and 
@@ -248,6 +297,15 @@
 \section{Evaluation}
 
 \section{Conclusion}
+    Retrospectively, whilst the Gourmake system does produce what is in my opinion rather human-like and at times surprisingly
+    inventive recipes, the Gourmake system suffers from the fact that the learning set it has to utilise isn't very large and
+    thus, despite the fact that the generated permutations of the learning set are vast, patterns which come from the raw
+    plaintext encoded in the learning set are easy to see.
+
+    As stated, with more time and more resources, Gourmake would ideally be improved by simply encoding more recipes into Gourmake's
+    learning set as well as encoding other recipes in their raw form as a sort of evaluative set so that Gourmake can iteratively
+    not only build recipes stochastically but also evolve them to meet certain criterion; however, the approach Gourmake uses by
+    abstractly categorising ingredients at a high level is seemingly a successful one.
 
 %\vskip 0.2in
 \bibliographystyle{kentHarvard}
