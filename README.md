@@ -23,6 +23,8 @@ main:main().
 
 Which will return CLI-output of a recipe in Markdown. Eventually Gourmake will output recipes into files.
 
+Please note that Gourmake *REQUIRES ERLANG 20*
+
 ## Example output
 ### Stroustrup's French inspired Lamb Neck and Beetroot mash gratin
 #### Ingredients:
